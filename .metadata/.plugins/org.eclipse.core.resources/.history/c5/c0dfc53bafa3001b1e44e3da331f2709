@@ -13,7 +13,6 @@ public class Data {
         return null;
     }
     
-    @SuppressWarnings("unchecked")
     public JSONObject createEmployee() {
         JSONObject student = new JSONObject();
         student.put("id", 0);
