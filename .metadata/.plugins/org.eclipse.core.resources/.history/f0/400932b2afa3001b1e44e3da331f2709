@@ -10,19 +10,15 @@ public class Data {
     }
     
     private List<Course> createCourses() {
-        List<Course> courses = new ArrayList<>();
-        courses.add(Course.MATH);
-        courses.add(Course.HISTORY);
-        return courses;
+        return null;
     }
     
     @SuppressWarnings("unchecked")
-    public JSONObject createStudent() {
+    public JSONObject createEmployee() {
         JSONObject student = new JSONObject();
         student.put("id", 0);
         student.put("name", "William Li");
-        student.put("courses", createCourses());
-        return student;
+        return null;
     }
     
 }

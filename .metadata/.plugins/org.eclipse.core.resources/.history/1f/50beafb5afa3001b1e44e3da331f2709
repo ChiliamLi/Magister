@@ -22,7 +22,7 @@ public class Data {
         student.put("id", 0);
         student.put("name", "William Li");
         student.put("courses", createCourses());
-        return student;
+        return null;
     }
     
 }
