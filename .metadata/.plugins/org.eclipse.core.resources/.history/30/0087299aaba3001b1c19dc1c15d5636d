@@ -1,0 +1,28 @@
+package hw5;
+import org.json.simple.*;
+import java.util.*;
+
+public class Data {
+    
+    private enum Course {
+        MATH, READING, WRITING, SCIENCE, HISTORY
+    }
+    
+    private List<Course> getCourses() {
+        List<Course> courses = new ArrayList<>();
+        courses.add(Course.MATH);
+        courses.add(Course.READING);
+        return courses;
+    }
+    
+    @SuppressWarnings("unchecked")
+    public JSONObject createStudent() {
+        JSONObject student = new JSONObject();
+        student.put("id", 0);
+        student.put("name", "William Li");
+        student.put("grade", 12);
+        student.put("subjects", getCourses());
+        return student;
+    }
+    
+}
