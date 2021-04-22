@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="huffman"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="huffman"/>
+			<item value="Huffman"/>
+			<item value="root"/>
+			<item value="alphabetSeed"/>
+			<item value="alphabet"/>
+			<item value="currNode"/>
+			<item value="throw"/>
+			<item value="setColor"/>
+			<item value="bottom_right"/>
+			<item value="bottom_left"/>
+			<item value="top_right"/>
+			<item value="top_left"/>
+			<item value="Listc"/>
+			<item value="Listb"/>
+			<item value="Lista"/>
+		</list>
+		<list key="replacehistory">
+			<item value="bottomRight"/>
+			<item value="bottomLeft"/>
+			<item value="topRight"/>
+			<item value="topLeft"/>
+			<item value="listc"/>
+			<item value="listb"/>
+			<item value="lista"/>
+			<item value="list160"/>
+			<item value="cis160"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="2076"/>
+		<item key="DIALOG_Y_ORIGIN" value="281"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
