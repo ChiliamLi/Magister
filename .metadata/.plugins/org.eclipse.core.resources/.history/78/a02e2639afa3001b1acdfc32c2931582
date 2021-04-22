@@ -3,10 +3,7 @@ package hw5;
 public class BipartiteMatching {
     //Implement Matchin scheme with FF
     
-    //Modify graph so we can run FF
-    public Graph modifyGraph(Graph g) {
-        return g; 
-    }
+    //Modify graph
     
     //Run FF algorihtm: 
     public void FordFulkerson(Graph g) {
