@@ -1287,6 +1287,7 @@ Binding(COMMAND+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 !ENTRY org.eclipse.ui 4 0 2021-04-22 16:26:24.336
 !MESSAGE Unhandled event loop exception
@@ -1472,6 +1473,8 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 74 more
 =======
+=======
+>>>>>>> Stashed changes
 !SESSION 2021-04-22 16:14:20.615 -----------------------------------------------
 eclipse.buildId=4.19.0.I20210303-1800
 java.version=15.0.2
@@ -1500,6 +1503,7 @@ Binding(COMMAND+SHIFT+T,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
 !SESSION 2021-04-22 16:14:20.615 -----------------------------------------------
@@ -1531,12 +1535,15 @@ Binding(COMMAND+SHIFT+T,
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2021-04-22 16:15:14.384
 !MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.MarkerStatsView" id and the "Checkstyle violations" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
 
 !ENTRY org.eclipse.e4.ui.workbench 2 0 2021-04-22 16:15:14.385
 !MESSAGE Removing PartDescriptorImpl with the "net.sf.eclipsecs.ui.stats.views.GraphStatsView" id and the "Checkstyle violations chart" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
@@ -1633,3 +1640,5 @@ Caused by: java.io.FileNotFoundException: C:\Program Files\Git\mingw64\share\git
 	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:108)
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:181)
 	... 74 more
+=======
+>>>>>>> Stashed changes
