@@ -3,9 +3,8 @@ package hw5;
 public class Main {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        System.out.println("Hello world!");
-        System.out.println("Hello world!");
+        Data d = new Data();
+        d.writeJSON(500, 100);
     }
 
 }
