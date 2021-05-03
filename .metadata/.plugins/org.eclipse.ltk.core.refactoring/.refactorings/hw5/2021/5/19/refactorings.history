@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;hw5.Graph&apos; to &apos;StudentTutorGraph&apos;&#x0D;&#x0A;- Original project: &apos;hw5&apos;&#x0D;&#x0A;- Original element: &apos;hw5.Graph&apos;&#x0D;&#x0A;- Renamed element: &apos;hw5.StudentTutorGraph&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Graph&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;hw5{Graph.java[Graph" matchStrategy="1" name="StudentTutorGraph" qualified="false" references="true" similarDeclarations="false" stamp="1620016865137" textual="false" version="1.0"/>
+</session>

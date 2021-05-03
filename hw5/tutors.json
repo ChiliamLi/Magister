@@ -1,1301 +1,1779 @@
 [
   {
-    "name": "Hanh Russel",
-    "rating": 2.85,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Madison Lockman",
+    "rating": 1.4,
     "id": 0,
     "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 5,
-      "MATH": 2,
-      "SCIENCE": 9,
-      "READING": 4
+      "READING": 10,
+      "MATH": 5,
+      "HISTORY": 4,
+      "WRITING": 7,
+      "SCIENCE": 10
     },
-    "capacity": 4
+    "capacity": 10
   },
   {
-    "name": "Erminia Klocko",
-    "rating": 8.98,
+    "proficientCourses": [
+      "SCIENCE"
+    ],
+    "name": "Kaitlyn McGlynn",
+    "rating": 2.55,
     "id": 1,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 6,
-      "MATH": 1,
-      "SCIENCE": 7,
-      "READING": 3
+      "READING": 3,
+      "MATH": 3,
+      "HISTORY": 1,
+      "WRITING": 3,
+      "SCIENCE": 9
     },
     "capacity": 4
   },
   {
-    "name": "Jason Mayert",
-    "rating": 1.07,
+    "proficientCourses": [
+      "READING",
+      "MATH"
+    ],
+    "name": "Merissa Fay",
+    "rating": 4.94,
     "id": 2,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 2,
-      "MATH": 3,
-      "SCIENCE": 5,
-      "READING": 3
+      "READING": 5,
+      "MATH": 7,
+      "HISTORY": 4,
+      "WRITING": 4,
+      "SCIENCE": 2
     },
-    "capacity": 3
+    "capacity": 9
   },
   {
-    "name": "Man Mayert",
-    "rating": 1.18,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY"
+    ],
+    "name": "Jan Jacobs",
+    "rating": 3.85,
     "id": 3,
     "proficiency": {
-      "WRITING": 8,
+      "READING": 1,
+      "MATH": 5,
       "HISTORY": 8,
-      "MATH": 3,
-      "SCIENCE": 7,
-      "READING": 4
+      "WRITING": 4,
+      "SCIENCE": 4
     },
     "capacity": 9
   },
   {
-    "name": "Allison Simonis",
-    "rating": 7.45,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Vicky Strosin",
+    "rating": 2.66,
     "id": 4,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 5,
-      "MATH": 6,
-      "SCIENCE": 8,
-      "READING": 4
+      "READING": 10,
+      "MATH": 3,
+      "HISTORY": 10,
+      "WRITING": 1,
+      "SCIENCE": 9
     },
-    "capacity": 7
+    "capacity": 5
   },
   {
-    "name": "Nathanael Turner",
-    "rating": 3.8,
+    "proficientCourses": [
+      "SCIENCE"
+    ],
+    "name": "Lesli Vandervort",
+    "rating": 0.28,
     "id": 5,
     "proficiency": {
-      "WRITING": 2,
+      "READING": 3,
+      "MATH": 1,
       "HISTORY": 1,
-      "MATH": 10,
-      "SCIENCE": 5,
-      "READING": 3
+      "WRITING": 2,
+      "SCIENCE": 6
     },
-    "capacity": 5
+    "capacity": 10
   },
   {
-    "name": "Morton Lebsack",
-    "rating": 0.79,
+    "proficientCourses": [
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Krystin Osinski",
+    "rating": 3.94,
     "id": 6,
     "proficiency": {
-      "WRITING": 0,
-      "HISTORY": 1,
-      "MATH": 8,
-      "SCIENCE": 8,
-      "READING": 7
+      "READING": 4,
+      "MATH": 9,
+      "HISTORY": 3,
+      "WRITING": 7,
+      "SCIENCE": 10
     },
-    "capacity": 6
+    "capacity": 7
   },
   {
-    "name": "Everette Huels",
-    "rating": 6.82,
+    "proficientCourses": [
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Jerome Schaefer",
+    "rating": 4.56,
     "id": 7,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 4,
-      "MATH": 2,
-      "SCIENCE": 7,
-      "READING": 1
+      "READING": 4,
+      "MATH": 4,
+      "HISTORY": 8,
+      "WRITING": 10,
+      "SCIENCE": 4
     },
-    "capacity": 3
+    "capacity": 5
   },
   {
-    "name": "Kathrin Padberg",
-    "rating": 1.81,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Ezekiel Hauck",
+    "rating": 4.87,
     "id": 8,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 2,
-      "MATH": 1,
-      "SCIENCE": 5,
-      "READING": 9
+      "READING": 7,
+      "MATH": 3,
+      "HISTORY": 8,
+      "WRITING": 6,
+      "SCIENCE": 6
     },
-    "capacity": 1
+    "capacity": 4
   },
   {
-    "name": "Nestor Barrows",
-    "rating": 0.79,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Cristie Murphy",
+    "rating": 9.31,
     "id": 9,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 3,
-      "MATH": 6,
-      "SCIENCE": 0,
-      "READING": 8
+      "READING": 5,
+      "MATH": 7,
+      "HISTORY": 1,
+      "WRITING": 8,
+      "SCIENCE": 7
     },
-    "capacity": 10
+    "capacity": 8
   },
   {
-    "name": "Naomi Mills",
-    "rating": 4.0,
+    "proficientCourses": [
+      "WRITING"
+    ],
+    "name": "Starla Predovic",
+    "rating": 0.69,
     "id": 10,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 1,
+      "READING": 1,
       "MATH": 1,
-      "SCIENCE": 9,
-      "READING": 1
+      "HISTORY": 2,
+      "WRITING": 7,
+      "SCIENCE": 1
     },
-    "capacity": 10
+    "capacity": 6
   },
   {
-    "name": "Josiah Heathcote",
-    "rating": 2.74,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Zack Windler",
+    "rating": 7.64,
     "id": 11,
     "proficiency": {
-      "WRITING": 10,
-      "HISTORY": 8,
-      "MATH": 9,
-      "SCIENCE": 6,
-      "READING": 5
+      "READING": 4,
+      "MATH": 6,
+      "HISTORY": 7,
+      "WRITING": 5,
+      "SCIENCE": 7
     },
-    "capacity": 10
+    "capacity": 7
   },
   {
-    "name": "Ozzie Nicolas",
-    "rating": 9.9,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Bradley Howell",
+    "rating": 3.17,
     "id": 12,
     "proficiency": {
-      "WRITING": 3,
+      "READING": 7,
+      "MATH": 8,
       "HISTORY": 7,
-      "MATH": 5,
-      "SCIENCE": 2,
-      "READING": 6
+      "WRITING": 5,
+      "SCIENCE": 8
     },
-    "capacity": 4
+    "capacity": 9
   },
   {
-    "name": "Dionna Hickle",
-    "rating": 7.43,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Jazmine Schultz",
+    "rating": 4.27,
     "id": 13,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 5,
+      "READING": 9,
       "MATH": 1,
-      "SCIENCE": 7,
-      "READING": 7
+      "HISTORY": 5,
+      "WRITING": 5,
+      "SCIENCE": 4
     },
-    "capacity": 6
+    "capacity": 10
   },
   {
-    "name": "Raphael Jast",
-    "rating": 8.3,
+    "proficientCourses": [
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Maris Beatty",
+    "rating": 9.21,
     "id": 14,
     "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 8,
-      "MATH": 7,
-      "SCIENCE": 2,
-      "READING": 1
+      "READING": 4,
+      "MATH": 8,
+      "HISTORY": 2,
+      "WRITING": 6,
+      "SCIENCE": 6
     },
-    "capacity": 3
+    "capacity": 9
   },
   {
-    "name": "Aurore Hammes",
-    "rating": 2.79,
+    "proficientCourses": [
+      "WRITING"
+    ],
+    "name": "Jerrod Sanford",
+    "rating": 1.45,
     "id": 15,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 7,
-      "MATH": 3,
-      "SCIENCE": 2,
-      "READING": 7
+      "READING": 2,
+      "MATH": 1,
+      "HISTORY": 2,
+      "WRITING": 8,
+      "SCIENCE": 1
     },
-    "capacity": 4
+    "capacity": 6
   },
   {
-    "name": "Marcos Pfeffer",
-    "rating": 3.45,
+    "proficientCourses": [
+      "MATH",
+      "SCIENCE"
+    ],
+    "name": "Maira Fahey",
+    "rating": 4.06,
     "id": 16,
     "proficiency": {
-      "WRITING": 7,
-      "HISTORY": 7,
-      "MATH": 6,
-      "SCIENCE": 4,
-      "READING": 6
+      "READING": 4,
+      "MATH": 7,
+      "HISTORY": 0,
+      "WRITING": 1,
+      "SCIENCE": 9
     },
-    "capacity": 10
+    "capacity": 9
   },
   {
-    "name": "Shannon Denesik",
-    "rating": 2.11,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Chas Hermiston",
+    "rating": 2.28,
     "id": 17,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 6,
-      "MATH": 4,
-      "SCIENCE": 2,
-      "READING": 2
+      "READING": 8,
+      "MATH": 7,
+      "HISTORY": 3,
+      "WRITING": 7,
+      "SCIENCE": 4
     },
-    "capacity": 7
+    "capacity": 4
   },
   {
-    "name": "Yuri Becker",
-    "rating": 1.14,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Marcelo Armstrong",
+    "rating": 3.68,
     "id": 18,
     "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 9,
-      "MATH": 1,
-      "SCIENCE": 4,
-      "READING": 8
+      "READING": 2,
+      "MATH": 6,
+      "HISTORY": 5,
+      "WRITING": 8,
+      "SCIENCE": 2
     },
-    "capacity": 10
+    "capacity": 9
   },
   {
-    "name": "Dimple Sauer",
-    "rating": 0.33,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Orville Nikolaus",
+    "rating": 3.17,
     "id": 19,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 2,
+      "READING": 9,
       "MATH": 1,
-      "SCIENCE": 0,
-      "READING": 7
+      "HISTORY": 10,
+      "WRITING": 1,
+      "SCIENCE": 10
     },
-    "capacity": 1
+    "capacity": 3
   },
   {
-    "name": "Florene Corwin",
-    "rating": 9.35,
+    "proficientCourses": [
+      "MATH",
+      "SCIENCE"
+    ],
+    "name": "Cathleen Douglas",
+    "rating": 8.63,
     "id": 20,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 3,
+      "READING": 2,
       "MATH": 7,
-      "SCIENCE": 2,
-      "READING": 1
+      "HISTORY": 3,
+      "WRITING": 0,
+      "SCIENCE": 6
     },
-    "capacity": 10
+    "capacity": 6
   },
   {
-    "name": "Sol Donnelly",
-    "rating": 0.89,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Darius Mohr",
+    "rating": 1.52,
     "id": 21,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 8,
-      "MATH": 2,
-      "SCIENCE": 4,
-      "READING": 7
+      "READING": 9,
+      "MATH": 6,
+      "HISTORY": 6,
+      "WRITING": 6,
+      "SCIENCE": 2
     },
-    "capacity": 1
+    "capacity": 5
   },
   {
-    "name": "Werner Nienow",
-    "rating": 0.5,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Rosalie Carter",
+    "rating": 8.78,
     "id": 22,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 7,
-      "MATH": 8,
-      "SCIENCE": 3,
-      "READING": 9
+      "READING": 8,
+      "MATH": 3,
+      "HISTORY": 9,
+      "WRITING": 6,
+      "SCIENCE": 10
     },
-    "capacity": 10
+    "capacity": 3
   },
   {
-    "name": "Darius Hahn",
-    "rating": 8.78,
+    "proficientCourses": [
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Luciano Keebler",
+    "rating": 5.61,
     "id": 23,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 4,
-      "MATH": 2,
-      "SCIENCE": 1,
-      "READING": 6
+      "READING": 1,
+      "MATH": 3,
+      "HISTORY": 5,
+      "WRITING": 2,
+      "SCIENCE": 8
     },
-    "capacity": 5
+    "capacity": 2
   },
   {
-    "name": "Tim Hoeger",
-    "rating": 1.01,
+    "proficientCourses": [
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Gabriele Koelpin",
+    "rating": 2.89,
     "id": 24,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 1,
+      "READING": 4,
       "MATH": 1,
-      "SCIENCE": 8,
-      "READING": 1
+      "HISTORY": 3,
+      "WRITING": 7,
+      "SCIENCE": 6
     },
-    "capacity": 10
+    "capacity": 8
   },
   {
-    "name": "Meghann Rath",
-    "rating": 6.78,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Mauricio Dare",
+    "rating": 9.82,
     "id": 25,
     "proficiency": {
-      "WRITING": 7,
-      "HISTORY": 9,
-      "MATH": 3,
-      "SCIENCE": 10,
-      "READING": 2
+      "READING": 6,
+      "MATH": 6,
+      "HISTORY": 8,
+      "WRITING": 9,
+      "SCIENCE": 4
     },
-    "capacity": 3
+    "capacity": 6
   },
   {
-    "name": "Sydney Hagenes",
-    "rating": 3.49,
+    "proficientCourses": [
+      "READING"
+    ],
+    "name": "Mickey Ratke",
+    "rating": 7.81,
     "id": 26,
     "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 5,
-      "MATH": 3,
-      "SCIENCE": 6,
-      "READING": 3
+      "READING": 9,
+      "MATH": 2,
+      "HISTORY": 1,
+      "WRITING": 4,
+      "SCIENCE": 4
     },
-    "capacity": 6
+    "capacity": 10
   },
   {
-    "name": "Wyatt Rosenbaum",
-    "rating": 5.18,
+    "proficientCourses": [
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Cesar Bruen",
+    "rating": 8.0,
     "id": 27,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 0,
-      "MATH": 8,
-      "SCIENCE": 2,
-      "READING": 6
+      "READING": 4,
+      "MATH": 3,
+      "HISTORY": 3,
+      "WRITING": 9,
+      "SCIENCE": 8
     },
-    "capacity": 6
+    "capacity": 7
   },
   {
-    "name": "Reagan Dare",
-    "rating": 7.76,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Ahmed Huel",
+    "rating": 3.63,
     "id": 28,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 5,
+      "READING": 9,
       "MATH": 8,
-      "SCIENCE": 7,
-      "READING": 6
+      "HISTORY": 3,
+      "WRITING": 10,
+      "SCIENCE": 4
     },
-    "capacity": 6
+    "capacity": 2
   },
   {
-    "name": "Ken Hodkiewicz",
-    "rating": 7.89,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Lolita Turner",
+    "rating": 2.61,
     "id": 29,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 5,
-      "MATH": 2,
-      "SCIENCE": 4,
-      "READING": 9
+      "READING": 5,
+      "MATH": 3,
+      "HISTORY": 7,
+      "WRITING": 6,
+      "SCIENCE": 5
     },
-    "capacity": 1
+    "capacity": 4
   },
   {
-    "name": "Joshua Reichert",
-    "rating": 7.39,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Hoyt Weissnat",
+    "rating": 4.03,
     "id": 30,
     "proficiency": {
+      "READING": 5,
+      "MATH": 3,
+      "HISTORY": 10,
       "WRITING": 1,
-      "HISTORY": 1,
-      "MATH": 7,
-      "SCIENCE": 8,
-      "READING": 5
+      "SCIENCE": 5
     },
-    "capacity": 10
+    "capacity": 1
   },
   {
-    "name": "Deana Daugherty",
-    "rating": 3.47,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Rodolfo Bednar",
+    "rating": 3.09,
     "id": 31,
     "proficiency": {
+      "READING": 9,
+      "MATH": 9,
+      "HISTORY": 5,
       "WRITING": 2,
-      "HISTORY": 1,
-      "MATH": 7,
-      "SCIENCE": 4,
-      "READING": 2
+      "SCIENCE": 7
     },
-    "capacity": 5
+    "capacity": 9
   },
   {
-    "name": "Delorse Vandervort",
-    "rating": 1.64,
+    "proficientCourses": [],
+    "name": "Rafaela Torphy",
+    "rating": 1.49,
     "id": 32,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 5,
-      "MATH": 8,
-      "SCIENCE": 9,
-      "READING": 3
+      "READING": 3,
+      "MATH": 1,
+      "HISTORY": 1,
+      "WRITING": 1,
+      "SCIENCE": 3
     },
-    "capacity": 2
+    "capacity": 5
   },
   {
-    "name": "Ellen Streich",
-    "rating": 3.45,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Dewayne Kuhlman",
+    "rating": 4.09,
     "id": 33,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 4,
-      "MATH": 6,
-      "SCIENCE": 9,
-      "READING": 7
+      "READING": 3,
+      "MATH": 9,
+      "HISTORY": 5,
+      "WRITING": 6,
+      "SCIENCE": 3
     },
-    "capacity": 7
+    "capacity": 1
   },
   {
-    "name": "Neomi Kuhlman",
-    "rating": 1.21,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Alycia Jacobi",
+    "rating": 4.89,
     "id": 34,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 2,
-      "MATH": 7,
-      "SCIENCE": 7,
-      "READING": 2
+      "READING": 2,
+      "MATH": 8,
+      "HISTORY": 8,
+      "WRITING": 2,
+      "SCIENCE": 7
     },
-    "capacity": 7
+    "capacity": 6
   },
   {
-    "name": "Benton Altenwerth",
-    "rating": 0.91,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "SCIENCE"
+    ],
+    "name": "Rebekah Beatty",
+    "rating": 6.74,
     "id": 35,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 10,
-      "MATH": 3,
-      "SCIENCE": 8,
-      "READING": 7
+      "READING": 5,
+      "MATH": 9,
+      "HISTORY": 3,
+      "WRITING": 3,
+      "SCIENCE": 7
     },
     "capacity": 5
   },
   {
-    "name": "Cameron Stokes",
-    "rating": 0.24,
+    "proficientCourses": [
+      "READING",
+      "SCIENCE"
+    ],
+    "name": "Chuck Cruickshank",
+    "rating": 7.23,
     "id": 36,
     "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 2,
-      "MATH": 1,
-      "SCIENCE": 2,
-      "READING": 9
+      "READING": 5,
+      "MATH": 4,
+      "HISTORY": 1,
+      "WRITING": 3,
+      "SCIENCE": 5
     },
-    "capacity": 5
+    "capacity": 3
   },
   {
-    "name": "Carlotta Hoppe",
-    "rating": 7.7,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Irwin Wisozk",
+    "rating": 2.31,
     "id": 37,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 0,
-      "MATH": 9,
-      "SCIENCE": 3,
-      "READING": 6
+      "READING": 7,
+      "MATH": 7,
+      "HISTORY": 4,
+      "WRITING": 6,
+      "SCIENCE": 5
     },
-    "capacity": 2
+    "capacity": 7
   },
   {
-    "name": "Kent Quigley",
-    "rating": 6.23,
+    "proficientCourses": [
+      "READING",
+      "WRITING"
+    ],
+    "name": "Janeen Champlin",
+    "rating": 6.53,
     "id": 38,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 2,
-      "MATH": 1,
-      "SCIENCE": 4,
-      "READING": 6
+      "READING": 6,
+      "MATH": 4,
+      "HISTORY": 0,
+      "WRITING": 7,
+      "SCIENCE": 4
     },
-    "capacity": 4
+    "capacity": 6
   },
   {
-    "name": "Stuart Dicki",
-    "rating": 1.23,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Garry Huels",
+    "rating": 3.19,
     "id": 39,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 9,
-      "MATH": 6,
-      "SCIENCE": 4,
-      "READING": 2
+      "READING": 7,
+      "MATH": 7,
+      "HISTORY": 0,
+      "WRITING": 8,
+      "SCIENCE": 2
     },
-    "capacity": 10
+    "capacity": 8
   },
   {
-    "name": "Leandro Hamill",
-    "rating": 9.11,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "George Doyle",
+    "rating": 9.32,
     "id": 40,
     "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 4,
-      "MATH": 10,
-      "SCIENCE": 4,
-      "READING": 1
+      "READING": 5,
+      "MATH": 1,
+      "HISTORY": 9,
+      "WRITING": 8,
+      "SCIENCE": 2
     },
-    "capacity": 5
+    "capacity": 4
   },
   {
-    "name": "Shanda Padberg",
-    "rating": 6.76,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Angelika Spinka",
+    "rating": 4.38,
     "id": 41,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 1,
-      "MATH": 4,
-      "SCIENCE": 2,
-      "READING": 0
+      "READING": 10,
+      "MATH": 8,
+      "HISTORY": 10,
+      "WRITING": 7,
+      "SCIENCE": 9
     },
-    "capacity": 6
+    "capacity": 3
   },
   {
-    "name": "Kenny Sauer",
-    "rating": 8.9,
+    "proficientCourses": [
+      "READING",
+      "MATH"
+    ],
+    "name": "Loriann Legros",
+    "rating": 6.7,
     "id": 42,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 0,
-      "MATH": 2,
-      "SCIENCE": 0,
-      "READING": 8
+      "READING": 9,
+      "MATH": 5,
+      "HISTORY": 3,
+      "WRITING": 3,
+      "SCIENCE": 2
     },
-    "capacity": 2
+    "capacity": 9
   },
   {
-    "name": "Aja Dach",
-    "rating": 1.12,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Gene Beer",
+    "rating": 0.94,
     "id": 43,
     "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 3,
-      "MATH": 3,
-      "SCIENCE": 2,
-      "READING": 2
+      "READING": 8,
+      "MATH": 7,
+      "HISTORY": 8,
+      "WRITING": 1,
+      "SCIENCE": 7
     },
-    "capacity": 10
+    "capacity": 9
   },
   {
-    "name": "Jared Haag",
-    "rating": 5.93,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Octavia McLaughlin",
+    "rating": 8.11,
     "id": 44,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 3,
-      "MATH": 5,
-      "SCIENCE": 4,
-      "READING": 6
+      "READING": 8,
+      "MATH": 4,
+      "HISTORY": 8,
+      "WRITING": 7,
+      "SCIENCE": 1
     },
-    "capacity": 1
+    "capacity": 10
   },
   {
-    "name": "Frederica Ortiz",
-    "rating": 5.68,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Thelma Wuckert",
+    "rating": 2.32,
     "id": 45,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 9,
+      "READING": 7,
       "MATH": 6,
-      "SCIENCE": 8,
-      "READING": 6
+      "HISTORY": 7,
+      "WRITING": 7,
+      "SCIENCE": 7
     },
-    "capacity": 1
+    "capacity": 6
   },
   {
-    "name": "Graig Hoeger",
-    "rating": 7.52,
+    "proficientCourses": [
+      "READING",
+      "MATH"
+    ],
+    "name": "Jolynn Kuhic",
+    "rating": 0.65,
     "id": 46,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 4,
-      "MATH": 3,
-      "SCIENCE": 5,
-      "READING": 9
+      "READING": 6,
+      "MATH": 9,
+      "HISTORY": 2,
+      "WRITING": 2,
+      "SCIENCE": 1
     },
-    "capacity": 7
+    "capacity": 10
   },
   {
-    "name": "Augustine Sipes",
-    "rating": 5.12,
+    "proficientCourses": [
+      "READING",
+      "WRITING"
+    ],
+    "name": "Ming Rolfson",
+    "rating": 3.35,
     "id": 47,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 2,
-      "MATH": 1,
-      "SCIENCE": 5,
-      "READING": 6
+      "READING": 9,
+      "MATH": 3,
+      "HISTORY": 3,
+      "WRITING": 7,
+      "SCIENCE": 1
     },
-    "capacity": 2
+    "capacity": 4
   },
   {
-    "name": "Modesto Corkery",
-    "rating": 1.69,
+    "proficientCourses": [
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Ligia Smitham",
+    "rating": 1.72,
     "id": 48,
     "proficiency": {
-      "WRITING": 5,
+      "READING": 2,
+      "MATH": 3,
       "HISTORY": 3,
-      "MATH": 4,
-      "SCIENCE": 7,
-      "READING": 1
+      "WRITING": 6,
+      "SCIENCE": 9
     },
-    "capacity": 5
+    "capacity": 10
   },
   {
-    "name": "Errol Anderson",
-    "rating": 8.45,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Tierra Cole",
+    "rating": 0.07,
     "id": 49,
     "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 7,
-      "MATH": 6,
-      "SCIENCE": 4,
-      "READING": 2
+      "READING": 10,
+      "MATH": 9,
+      "HISTORY": 8,
+      "WRITING": 2,
+      "SCIENCE": 5
     },
-    "capacity": 7
+    "capacity": 5
   },
   {
-    "name": "Joe Kunze",
-    "rating": 3.67,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Danita Hirthe",
+    "rating": 1.71,
     "id": 50,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 5,
-      "MATH": 0,
-      "SCIENCE": 6,
-      "READING": 7
+      "READING": 1,
+      "MATH": 9,
+      "HISTORY": 7,
+      "WRITING": 5,
+      "SCIENCE": 3
     },
-    "capacity": 6
+    "capacity": 3
   },
   {
-    "name": "Carmen Jones",
-    "rating": 1.92,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Ernie Thiel",
+    "rating": 9.74,
     "id": 51,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 9,
-      "MATH": 2,
-      "SCIENCE": 6,
-      "READING": 1
+      "READING": 7,
+      "MATH": 8,
+      "HISTORY": 8,
+      "WRITING": 9,
+      "SCIENCE": 4
     },
-    "capacity": 2
+    "capacity": 3
   },
   {
-    "name": "Logan Goldner",
-    "rating": 0.25,
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Antoine Feil",
+    "rating": 3.24,
     "id": 52,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 6,
-      "MATH": 1,
-      "SCIENCE": 2,
-      "READING": 6
+      "READING": 2,
+      "MATH": 7,
+      "HISTORY": 9,
+      "WRITING": 7,
+      "SCIENCE": 2
     },
-    "capacity": 6
+    "capacity": 3
   },
   {
-    "name": "Glenn Block",
-    "rating": 9.2,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Gretta Daugherty",
+    "rating": 3.15,
     "id": 53,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 8,
+      "READING": 7,
       "MATH": 5,
-      "SCIENCE": 10,
-      "READING": 5
+      "HISTORY": 9,
+      "WRITING": 5,
+      "SCIENCE": 4
     },
     "capacity": 8
   },
   {
-    "name": "Eugenio Jacobson",
-    "rating": 8.1,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Gilbert Morar",
+    "rating": 1.99,
     "id": 54,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 7,
-      "MATH": 0,
-      "SCIENCE": 5,
-      "READING": 4
+      "READING": 5,
+      "MATH": 7,
+      "HISTORY": 9,
+      "WRITING": 3,
+      "SCIENCE": 5
     },
-    "capacity": 3
+    "capacity": 1
   },
   {
-    "name": "Bobbie Thiel",
-    "rating": 5.73,
+    "proficientCourses": [
+      "READING",
+      "SCIENCE"
+    ],
+    "name": "Freeda Pouros",
+    "rating": 2.85,
     "id": 55,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 6,
-      "MATH": 8,
-      "SCIENCE": 6,
-      "READING": 9
+      "READING": 6,
+      "MATH": 3,
+      "HISTORY": 2,
+      "WRITING": 3,
+      "SCIENCE": 7
     },
-    "capacity": 1
+    "capacity": 6
   },
   {
-    "name": "Sharie Gaylord",
-    "rating": 7.58,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY"
+    ],
+    "name": "Vernon Ullrich",
+    "rating": 0.85,
     "id": 56,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 7,
-      "MATH": 8,
-      "SCIENCE": 3,
-      "READING": 1
+      "READING": 8,
+      "MATH": 7,
+      "HISTORY": 6,
+      "WRITING": 0,
+      "SCIENCE": 1
     },
-    "capacity": 8
+    "capacity": 10
   },
   {
-    "name": "Nobuko Feeney",
-    "rating": 9.49,
+    "proficientCourses": [
+      "HISTORY"
+    ],
+    "name": "Penelope Howe",
+    "rating": 7.37,
     "id": 57,
     "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 5,
+      "READING": 4,
       "MATH": 1,
-      "SCIENCE": 9,
-      "READING": 7
+      "HISTORY": 8,
+      "WRITING": 3,
+      "SCIENCE": 3
     },
-    "capacity": 9
+    "capacity": 8
   },
   {
-    "name": "Kelsi Ondricka",
-    "rating": 2.63,
+    "proficientCourses": [
+      "READING",
+      "WRITING"
+    ],
+    "name": "Noemi Gulgowski",
+    "rating": 5.56,
     "id": 58,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 5,
-      "MATH": 6,
-      "SCIENCE": 7,
-      "READING": 0
-    },
-    "capacity": 8
-  },
-  {
-    "name": "Abraham Schmitt",
-    "rating": 6.38,
-    "id": 59,
-    "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 8,
-      "MATH": 5,
-      "SCIENCE": 1,
-      "READING": 1
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Milford Trantow",
-    "rating": 9.33,
-    "id": 60,
-    "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 7,
-      "MATH": 4,
-      "SCIENCE": 8,
-      "READING": 0
+      "READING": 5,
+      "MATH": 2,
+      "HISTORY": 3,
+      "WRITING": 9,
+      "SCIENCE": 2
     },
     "capacity": 3
   },
   {
-    "name": "Pam Bartell",
-    "rating": 6.65,
-    "id": 61,
+    "proficientCourses": [
+      "READING",
+      "SCIENCE"
+    ],
+    "name": "Victor Gislason",
+    "rating": 9.75,
+    "id": 59,
     "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 8,
-      "MATH": 7,
-      "SCIENCE": 8,
-      "READING": 6
-    },
-    "capacity": 4
-  },
-  {
-    "name": "Clifford Johns",
-    "rating": 8.66,
-    "id": 62,
-    "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 4,
-      "MATH": 5,
-      "SCIENCE": 1,
-      "READING": 4
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Clarence O\u0027Connell",
-    "rating": 4.46,
-    "id": 63,
-    "proficiency": {
-      "WRITING": 10,
-      "HISTORY": 0,
-      "MATH": 8,
-      "SCIENCE": 5,
-      "READING": 3
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Ilda Kassulke",
-    "rating": 6.82,
-    "id": 64,
-    "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 0,
-      "MATH": 7,
-      "SCIENCE": 3,
-      "READING": 3
-    },
-    "capacity": 4
-  },
-  {
-    "name": "Brook Schulist",
-    "rating": 0.88,
-    "id": 65,
-    "proficiency": {
-      "WRITING": 7,
-      "HISTORY": 1,
-      "MATH": 3,
-      "SCIENCE": 8,
-      "READING": 8
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Jame McCullough",
-    "rating": 1.94,
-    "id": 66,
-    "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 8,
+      "READING": 5,
       "MATH": 4,
-      "SCIENCE": 5,
-      "READING": 10
+      "HISTORY": 4,
+      "WRITING": 2,
+      "SCIENCE": 7
     },
-    "capacity": 4
+    "capacity": 2
   },
   {
-    "name": "Raul Johns",
-    "rating": 9.46,
-    "id": 67,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Kirsten Mraz",
+    "rating": 8.89,
+    "id": 60,
     "proficiency": {
+      "READING": 7,
+      "MATH": 7,
+      "HISTORY": 7,
       "WRITING": 4,
-      "HISTORY": 3,
-      "MATH": 3,
-      "SCIENCE": 1,
-      "READING": 2
+      "SCIENCE": 9
     },
     "capacity": 1
   },
   {
-    "name": "Cherly DuBuque",
-    "rating": 7.36,
-    "id": 68,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Myrna Daniel",
+    "rating": 1.53,
+    "id": 61,
     "proficiency": {
+      "READING": 7,
+      "MATH": 7,
+      "HISTORY": 10,
       "WRITING": 10,
-      "HISTORY": 9,
-      "MATH": 10,
-      "SCIENCE": 2,
-      "READING": 7
+      "SCIENCE": 9
+    },
+    "capacity": 6
+  },
+  {
+    "proficientCourses": [
+      "HISTORY"
+    ],
+    "name": "Ossie Ullrich",
+    "rating": 2.48,
+    "id": 62,
+    "proficiency": {
+      "READING": 2,
+      "MATH": 2,
+      "HISTORY": 5,
+      "WRITING": 3,
+      "SCIENCE": 2
     },
     "capacity": 10
   },
   {
-    "name": "Ann Koelpin",
-    "rating": 9.26,
-    "id": 69,
+    "proficientCourses": [
+      "READING",
+      "WRITING"
+    ],
+    "name": "Wes Altenwerth",
+    "rating": 2.23,
+    "id": 63,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 5,
-      "MATH": 3,
-      "SCIENCE": 6,
-      "READING": 6
-    },
-    "capacity": 4
-  },
-  {
-    "name": "Cesar Kautzer",
-    "rating": 4.82,
-    "id": 70,
-    "proficiency": {
-      "WRITING": 1,
+      "READING": 6,
+      "MATH": 2,
       "HISTORY": 4,
-      "MATH": 4,
-      "SCIENCE": 8,
-      "READING": 10
+      "WRITING": 8,
+      "SCIENCE": 1
     },
     "capacity": 7
   },
   {
-    "name": "Chi Hansen",
-    "rating": 0.16,
-    "id": 71,
+    "proficientCourses": [
+      "READING"
+    ],
+    "name": "Renda Witting",
+    "rating": 5.46,
+    "id": 64,
     "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 8,
-      "MATH": 3,
-      "SCIENCE": 9,
-      "READING": 6
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Tomasa Jakubowski",
-    "rating": 7.51,
-    "id": 72,
-    "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 8,
-      "MATH": 7,
-      "SCIENCE": 4,
-      "READING": 3
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Catheryn Pouros",
-    "rating": 8.19,
-    "id": 73,
-    "proficiency": {
+      "READING": 9,
+      "MATH": 4,
+      "HISTORY": 2,
       "WRITING": 3,
-      "HISTORY": 8,
-      "MATH": 10,
-      "SCIENCE": 5,
-      "READING": 3
+      "SCIENCE": 1
     },
     "capacity": 4
   },
   {
-    "name": "Jose Bayer",
-    "rating": 7.96,
-    "id": 74,
+    "proficientCourses": [
+      "SCIENCE"
+    ],
+    "name": "Shiela Stroman",
+    "rating": 2.11,
+    "id": 65,
     "proficiency": {
-      "WRITING": 3,
+      "READING": 3,
+      "MATH": 3,
+      "HISTORY": 2,
+      "WRITING": 1,
+      "SCIENCE": 5
+    },
+    "capacity": 6
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Marlana Jacobi",
+    "rating": 6.68,
+    "id": 66,
+    "proficiency": {
+      "READING": 3,
+      "MATH": 6,
       "HISTORY": 9,
-      "MATH": 5,
-      "SCIENCE": 7,
-      "READING": 1
+      "WRITING": 0,
+      "SCIENCE": 9
+    },
+    "capacity": 10
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Dick Hirthe",
+    "rating": 1.79,
+    "id": 67,
+    "proficiency": {
+      "READING": 9,
+      "MATH": 1,
+      "HISTORY": 7,
+      "WRITING": 7,
+      "SCIENCE": 5
+    },
+    "capacity": 7
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "SCIENCE"
+    ],
+    "name": "Yuonne Zieme",
+    "rating": 6.45,
+    "id": 68,
+    "proficiency": {
+      "READING": 6,
+      "MATH": 10,
+      "HISTORY": 3,
+      "WRITING": 3,
+      "SCIENCE": 5
     },
     "capacity": 9
   },
   {
-    "name": "Zella Bergnaum",
-    "rating": 9.1,
+    "proficientCourses": [
+      "READING",
+      "SCIENCE"
+    ],
+    "name": "Kristofer Rohan",
+    "rating": 5.6,
+    "id": 69,
+    "proficiency": {
+      "READING": 10,
+      "MATH": 2,
+      "HISTORY": 2,
+      "WRITING": 3,
+      "SCIENCE": 9
+    },
+    "capacity": 10
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Yevette Hand",
+    "rating": 4.9,
+    "id": 70,
+    "proficiency": {
+      "READING": 3,
+      "MATH": 5,
+      "HISTORY": 8,
+      "WRITING": 6,
+      "SCIENCE": 2
+    },
+    "capacity": 10
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Joey Spencer",
+    "rating": 6.59,
+    "id": 71,
+    "proficiency": {
+      "READING": 3,
+      "MATH": 8,
+      "HISTORY": 8,
+      "WRITING": 10,
+      "SCIENCE": 8
+    },
+    "capacity": 4
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Paige Little",
+    "rating": 5.89,
+    "id": 72,
+    "proficiency": {
+      "READING": 8,
+      "MATH": 9,
+      "HISTORY": 10,
+      "WRITING": 1,
+      "SCIENCE": 9
+    },
+    "capacity": 9
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "King Roob",
+    "rating": 2.77,
+    "id": 73,
+    "proficiency": {
+      "READING": 1,
+      "MATH": 8,
+      "HISTORY": 8,
+      "WRITING": 4,
+      "SCIENCE": 6
+    },
+    "capacity": 7
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Jorge Runolfsson",
+    "rating": 7.62,
+    "id": 74,
+    "proficiency": {
+      "READING": 6,
+      "MATH": 1,
+      "HISTORY": 8,
+      "WRITING": 8,
+      "SCIENCE": 3
+    },
+    "capacity": 7
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Elvie McKenzie",
+    "rating": 3.91,
     "id": 75,
     "proficiency": {
-      "WRITING": 5,
-      "HISTORY": 8,
-      "MATH": 1,
-      "SCIENCE": 1,
-      "READING": 8
+      "READING": 5,
+      "MATH": 4,
+      "HISTORY": 6,
+      "WRITING": 8,
+      "SCIENCE": 7
     },
-    "capacity": 3
+    "capacity": 8
   },
   {
-    "name": "Dwain Shanahan",
-    "rating": 8.76,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Roxann Connelly",
+    "rating": 6.37,
     "id": 76,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 3,
-      "MATH": 9,
-      "SCIENCE": 10,
-      "READING": 4
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Norman O\u0027Conner",
-    "rating": 2.92,
-    "id": 77,
-    "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 1,
-      "MATH": 3,
-      "SCIENCE": 3,
-      "READING": 10
-    },
-    "capacity": 7
-  },
-  {
-    "name": "Lan Glover",
-    "rating": 2.63,
-    "id": 78,
-    "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 4,
-      "MATH": 6,
-      "SCIENCE": 9,
-      "READING": 4
-    },
-    "capacity": 8
-  },
-  {
-    "name": "Le Legros",
-    "rating": 0.74,
-    "id": 79,
-    "proficiency": {
-      "WRITING": 0,
-      "HISTORY": 1,
+      "READING": 6,
       "MATH": 7,
-      "SCIENCE": 4,
-      "READING": 6
-    },
-    "capacity": 7
-  },
-  {
-    "name": "Rebbecca Franecki",
-    "rating": 3.51,
-    "id": 80,
-    "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 4,
-      "MATH": 9,
-      "SCIENCE": 2,
-      "READING": 8
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Phyllis Emmerich",
-    "rating": 8.82,
-    "id": 81,
-    "proficiency": {
-      "WRITING": 9,
-      "HISTORY": 9,
-      "MATH": 4,
-      "SCIENCE": 7,
-      "READING": 0
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Bret Terry",
-    "rating": 9.26,
-    "id": 82,
-    "proficiency": {
-      "WRITING": 10,
-      "HISTORY": 7,
-      "MATH": 6,
-      "SCIENCE": 4,
-      "READING": 3
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Garfield Hand",
-    "rating": 5.39,
-    "id": 83,
-    "proficiency": {
-      "WRITING": 7,
-      "HISTORY": 8,
-      "MATH": 9,
-      "SCIENCE": 3,
-      "READING": 5
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Kim Heidenreich",
-    "rating": 8.83,
-    "id": 84,
-    "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 10,
-      "MATH": 6,
-      "SCIENCE": 2,
-      "READING": 9
-    },
-    "capacity": 7
-  },
-  {
-    "name": "Minta Schmeler",
-    "rating": 7.58,
-    "id": 85,
-    "proficiency": {
-      "WRITING": 0,
-      "HISTORY": 4,
-      "MATH": 3,
-      "SCIENCE": 9,
-      "READING": 3
-    },
-    "capacity": 10
-  },
-  {
-    "name": "Kurtis Rodriguez",
-    "rating": 0.48,
-    "id": 86,
-    "proficiency": {
-      "WRITING": 6,
-      "HISTORY": 4,
-      "MATH": 1,
-      "SCIENCE": 10,
-      "READING": 3
-    },
-    "capacity": 6
-  },
-  {
-    "name": "Lin Orn",
-    "rating": 4.62,
-    "id": 87,
-    "proficiency": {
-      "WRITING": 0,
-      "HISTORY": 10,
-      "MATH": 6,
-      "SCIENCE": 5,
-      "READING": 3
-    },
-    "capacity": 5
-  },
-  {
-    "name": "Nicolette Fay",
-    "rating": 2.14,
-    "id": 88,
-    "proficiency": {
-      "WRITING": 7,
       "HISTORY": 3,
-      "MATH": 9,
-      "SCIENCE": 8,
-      "READING": 5
+      "WRITING": 9,
+      "SCIENCE": 7
     },
     "capacity": 2
   },
   {
-    "name": "Dario Kunze",
-    "rating": 7.56,
-    "id": 89,
+    "proficientCourses": [
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Brent Goyette",
+    "rating": 2.71,
+    "id": 77,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 3,
+      "READING": 4,
+      "MATH": 6,
+      "HISTORY": 4,
+      "WRITING": 5,
+      "SCIENCE": 1
+    },
+    "capacity": 8
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Britteny Dibbert",
+    "rating": 6.86,
+    "id": 78,
+    "proficiency": {
+      "READING": 6,
+      "MATH": 2,
+      "HISTORY": 5,
+      "WRITING": 6,
+      "SCIENCE": 1
+    },
+    "capacity": 8
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH"
+    ],
+    "name": "Charla Bayer",
+    "rating": 2.46,
+    "id": 79,
+    "proficiency": {
+      "READING": 9,
       "MATH": 5,
-      "SCIENCE": 9,
-      "READING": 5
+      "HISTORY": 3,
+      "WRITING": 1,
+      "SCIENCE": 4
+    },
+    "capacity": 10
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Traci Heathcote",
+    "rating": 6.0,
+    "id": 80,
+    "proficiency": {
+      "READING": 8,
+      "MATH": 8,
+      "HISTORY": 6,
+      "WRITING": 9,
+      "SCIENCE": 0
     },
     "capacity": 6
   },
   {
-    "name": "Natalia Breitenberg",
-    "rating": 0.95,
-    "id": 90,
+    "proficientCourses": [
+      "SCIENCE"
+    ],
+    "name": "Scotty Heaney",
+    "rating": 7.04,
+    "id": 81,
     "proficiency": {
-      "WRITING": 3,
-      "HISTORY": 8,
-      "MATH": 6,
-      "SCIENCE": 9,
-      "READING": 6
-    },
-    "capacity": 7
-  },
-  {
-    "name": "Rosalinda Grimes",
-    "rating": 0.11,
-    "id": 91,
-    "proficiency": {
-      "WRITING": 2,
-      "HISTORY": 8,
-      "MATH": 2,
-      "SCIENCE": 6,
-      "READING": 10
-    },
-    "capacity": 1
-  },
-  {
-    "name": "Jeana Grimes",
-    "rating": 3.66,
-    "id": 92,
-    "proficiency": {
-      "WRITING": 10,
-      "HISTORY": 7,
-      "MATH": 0,
-      "SCIENCE": 8,
-      "READING": 4
-    },
-    "capacity": 1
-  },
-  {
-    "name": "Allen Johnston",
-    "rating": 4.88,
-    "id": 93,
-    "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 10,
-      "MATH": 2,
-      "SCIENCE": 10,
-      "READING": 1
+      "READING": 1,
+      "MATH": 3,
+      "HISTORY": 1,
+      "WRITING": 0,
+      "SCIENCE": 9
     },
     "capacity": 3
   },
   {
-    "name": "Mark Daniel",
-    "rating": 7.46,
-    "id": 94,
+    "proficientCourses": [
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Len Torphy",
+    "rating": 5.49,
+    "id": 82,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 9,
-      "MATH": 5,
-      "SCIENCE": 10,
-      "READING": 2
+      "READING": 3,
+      "MATH": 2,
+      "HISTORY": 8,
+      "WRITING": 7,
+      "SCIENCE": 1
     },
     "capacity": 8
   },
   {
-    "name": "Andreas Larkin",
-    "rating": 1.74,
-    "id": 95,
+    "proficientCourses": [],
+    "name": "Brigitte Heidenreich",
+    "rating": 2.78,
+    "id": 83,
     "proficiency": {
-      "WRITING": 1,
-      "HISTORY": 5,
-      "MATH": 9,
-      "SCIENCE": 5,
-      "READING": 9
+      "READING": 0,
+      "MATH": 1,
+      "HISTORY": 1,
+      "WRITING": 0,
+      "SCIENCE": 0
+    },
+    "capacity": 1
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Millicent Labadie",
+    "rating": 8.81,
+    "id": 84,
+    "proficiency": {
+      "READING": 6,
+      "MATH": 4,
+      "HISTORY": 4,
+      "WRITING": 6,
+      "SCIENCE": 8
     },
     "capacity": 5
   },
   {
-    "name": "Dewitt Baumbach",
-    "rating": 2.5,
-    "id": 96,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Keena Feeney",
+    "rating": 0.96,
+    "id": 85,
     "proficiency": {
-      "WRITING": 8,
-      "HISTORY": 2,
-      "MATH": 3,
-      "SCIENCE": 4,
-      "READING": 9
+      "READING": 9,
+      "MATH": 6,
+      "HISTORY": 9,
+      "WRITING": 1,
+      "SCIENCE": 10
+    },
+    "capacity": 8
+  },
+  {
+    "proficientCourses": [
+      "HISTORY"
+    ],
+    "name": "Seth Crona",
+    "rating": 7.38,
+    "id": 86,
+    "proficiency": {
+      "READING": 1,
+      "MATH": 1,
+      "HISTORY": 8,
+      "WRITING": 2,
+      "SCIENCE": 2
+    },
+    "capacity": 3
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Takako Luettgen",
+    "rating": 4.82,
+    "id": 87,
+    "proficiency": {
+      "READING": 6,
+      "MATH": 7,
+      "HISTORY": 1,
+      "WRITING": 5,
+      "SCIENCE": 9
     },
     "capacity": 10
   },
   {
-    "name": "Frank Raynor",
-    "rating": 2.31,
-    "id": 97,
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Ardis Tremblay",
+    "rating": 3.53,
+    "id": 88,
     "proficiency": {
-      "WRITING": 4,
-      "HISTORY": 1,
-      "MATH": 9,
-      "SCIENCE": 9,
-      "READING": 3
+      "READING": 6,
+      "MATH": 3,
+      "HISTORY": 6,
+      "WRITING": 10,
+      "SCIENCE": 1
     },
-    "capacity": 2
+    "capacity": 9
   },
   {
-    "name": "Cari Herman",
-    "rating": 2.96,
-    "id": 98,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Rozanne Kautzer",
+    "rating": 6.03,
+    "id": 89,
     "proficiency": {
-      "WRITING": 0,
-      "HISTORY": 4,
-      "MATH": 6,
-      "SCIENCE": 7,
-      "READING": 3
+      "READING": 5,
+      "MATH": 8,
+      "HISTORY": 3,
+      "WRITING": 5,
+      "SCIENCE": 4
+    },
+    "capacity": 6
+  },
+  {
+    "proficientCourses": [
+      "HISTORY",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Abe Renner",
+    "rating": 2.1,
+    "id": 90,
+    "proficiency": {
+      "READING": 1,
+      "MATH": 3,
+      "HISTORY": 10,
+      "WRITING": 5,
+      "SCIENCE": 5
     },
     "capacity": 7
   },
   {
-    "name": "Leslie Walter",
-    "rating": 3.27,
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Lanette Kulas",
+    "rating": 7.47,
+    "id": 91,
+    "proficiency": {
+      "READING": 5,
+      "MATH": 5,
+      "HISTORY": 3,
+      "WRITING": 9,
+      "SCIENCE": 4
+    },
+    "capacity": 8
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "WRITING"
+    ],
+    "name": "Darleen Hirthe",
+    "rating": 8.43,
+    "id": 92,
+    "proficiency": {
+      "READING": 8,
+      "MATH": 2,
+      "HISTORY": 4,
+      "WRITING": 6,
+      "SCIENCE": 3
+    },
+    "capacity": 10
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "name": "Jenelle Hagenes",
+    "rating": 7.06,
+    "id": 93,
+    "proficiency": {
+      "READING": 10,
+      "MATH": 1,
+      "HISTORY": 2,
+      "WRITING": 6,
+      "SCIENCE": 7
+    },
+    "capacity": 8
+  },
+  {
+    "proficientCourses": [
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Edmund Ankunding",
+    "rating": 6.47,
+    "id": 94,
+    "proficiency": {
+      "READING": 2,
+      "MATH": 2,
+      "HISTORY": 7,
+      "WRITING": 4,
+      "SCIENCE": 8
+    },
+    "capacity": 4
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "HISTORY",
+      "WRITING"
+    ],
+    "name": "Ria Medhurst",
+    "rating": 7.13,
+    "id": 95,
+    "proficiency": {
+      "READING": 7,
+      "MATH": 3,
+      "HISTORY": 10,
+      "WRITING": 5,
+      "SCIENCE": 3
+    },
+    "capacity": 3
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Claud Rolfson",
+    "rating": 5.74,
+    "id": 96,
+    "proficiency": {
+      "READING": 4,
+      "MATH": 6,
+      "HISTORY": 9,
+      "WRITING": 2,
+      "SCIENCE": 7
+    },
+    "capacity": 7
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "WRITING"
+    ],
+    "name": "Manuel Kilback",
+    "rating": 5.43,
+    "id": 97,
+    "proficiency": {
+      "READING": 7,
+      "MATH": 10,
+      "HISTORY": 2,
+      "WRITING": 5,
+      "SCIENCE": 0
+    },
+    "capacity": 4
+  },
+  {
+    "proficientCourses": [
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
+    ],
+    "name": "Gabriel Stark",
+    "rating": 3.46,
+    "id": 98,
+    "proficiency": {
+      "READING": 4,
+      "MATH": 5,
+      "HISTORY": 8,
+      "WRITING": 4,
+      "SCIENCE": 5
+    },
+    "capacity": 5
+  },
+  {
+    "proficientCourses": [
+      "READING",
+      "MATH",
+      "HISTORY"
+    ],
+    "name": "Pasquale Doyle",
+    "rating": 1.95,
     "id": 99,
     "proficiency": {
-      "WRITING": 2,
+      "READING": 10,
+      "MATH": 5,
       "HISTORY": 6,
-      "MATH": 6,
-      "SCIENCE": 1,
-      "READING": 4
+      "WRITING": 2,
+      "SCIENCE": 4
     },
     "capacity": 4
   }
