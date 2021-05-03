@@ -6,12 +6,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/automaton-1.11-8.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/commons-lang3-3.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/generex-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/javafaker-1.0.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/json-simple-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/jeffr/Documents/GitHub/Magister/hw5/snakeyaml-1.23-android.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/automaton-1.11-8.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/generex-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/javafaker-1.0.2.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/williamli/Documents/GitHub/Magister/hw5/snakeyaml-1.23-android.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
