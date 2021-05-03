@@ -5,9 +5,10 @@ public class BFS {
     
     private BFS() {};
     
-    public static boolean doBFS1(StudentTutorGraph g, int s, int t, int[] parent) {
+    public static int[] doBFS1(StudentTutorGraph g, int s) {
         LinkedList<Integer> q;
         boolean[] discovered;
+        int[] parent;
         
         discovered = new boolean[g.getSize()];
         parent = new int[g.getSize()];
@@ -25,21 +26,16 @@ public class BFS {
             int v = q.pollFirst();
             for (int u : g.outNeighbors(v)) {
                 if (!discovered[u]) {
-                    //Added this part to return true or false for reachability; 
-                    if (v == t) {
-                        parent[v] = u;
-                        return true;
-                    }
                     discovered[u] = true;
                     q.addLast(u);
                     parent[u] = v;
                 }
             }
         }
-        return false;
+        
+        return parent;
     }
     
     //Change BFS to be reachable @jeffrey plz
-    //Change BFS to take in a parent array that's modified iteritavely: 
     
 }

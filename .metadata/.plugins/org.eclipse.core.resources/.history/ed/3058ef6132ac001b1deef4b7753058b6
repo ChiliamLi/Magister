@@ -160,8 +160,6 @@ public class StudentTutorGraph {
         
         System.out.println("Finished initializing graph");
     }
-    public StudentTutorGraph() {        
-    }
 
     /**
      * Returns the number of vertices in the graph.
@@ -258,5 +256,4 @@ public class StudentTutorGraph {
         }
         return g.get(v).keySet();
     }
-    
 }
