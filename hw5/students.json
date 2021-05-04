@@ -2,35 +2,34 @@
   {
     "courses": [
       "MATH",
-      "READING",
       "WRITING",
       "HISTORY"
     ],
-    "grade": 9,
-    "name": "Twanna Goyette",
+    "grade": 11,
+    "name": "Hobert Price",
     "id": 0,
-    "frequency": 3
-  },
-  {
-    "courses": [
-      "READING",
-      "WRITING",
-      "HISTORY"
-    ],
-    "grade": 7,
-    "name": "Ulysses Gerhold",
-    "id": 1,
-    "frequency": 4
+    "frequency": 6
   },
   {
     "courses": [
       "MATH",
-      "WRITING",
-      "SCIENCE",
-      "HISTORY"
+      "READING",
+      "WRITING"
     ],
-    "grade": 10,
-    "name": "Jerold Wisoky",
+    "grade": 9,
+    "name": "Marion Lindgren",
+    "id": 1,
+    "frequency": 5
+  },
+  {
+    "courses": [
+      "MATH",
+      "READING",
+      "WRITING",
+      "SCIENCE"
+    ],
+    "grade": 11,
+    "name": "Burl Block",
     "id": 2,
     "frequency": 4
   }

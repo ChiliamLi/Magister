@@ -1,36 +1,37 @@
 [
   {
     "proficientCourses": [
-      "WRITING",
-      "HISTORY"
+      "READING",
+      "MATH",
+      "HISTORY",
+      "SCIENCE"
     ],
-    "name": "Noel Kirlin",
-    "rating": 6.36,
+    "name": "Manual Fahey",
+    "rating": 7.88,
     "id": 0,
     "proficiency": {
-      "WRITING": 8,
-      "READING": 4,
-      "MATH": 1,
+      "WRITING": 3,
+      "READING": 9,
+      "MATH": 7,
       "HISTORY": 5,
-      "SCIENCE": 0
+      "SCIENCE": 10
     },
-    "capacity": 10
+    "capacity": 6
   },
   {
     "proficientCourses": [
-      "WRITING",
-      "SCIENCE"
+      "MATH"
     ],
-    "name": "Patsy Maggio",
-    "rating": 5.35,
+    "name": "Chad Schuster",
+    "rating": 1.9,
     "id": 1,
     "proficiency": {
-      "WRITING": 5,
-      "READING": 2,
-      "MATH": 1,
-      "HISTORY": 1,
-      "SCIENCE": 9
+      "WRITING": 3,
+      "READING": 4,
+      "MATH": 6,
+      "HISTORY": 2,
+      "SCIENCE": 2
     },
-    "capacity": 4
+    "capacity": 8
   }
 ]

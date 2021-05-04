@@ -37,16 +37,16 @@ public class ClosureProperties {
         List<List<String>> filtered = new ArrayList<List<String>>();
         ArrayList<String> neighbors = new ArrayList<String>();
         for (List<String> matching: matchings) {
-            if (matching.get(1).equals(name)) {
+            if (matching.get(0).equals(name)) {
                 filtered.add(matching);
-                neighbors.add(matching.get(0));
+                neighbors.add(matching.get(1));
             }
         }
         double count = 0.0;
         System.out.println(neighbors.toString());
         for (String neighbor: neighbors) {
             for(List<String> matching: matchings) {
-                if (matching.get(0).equals(neighbor) && neighbors.contains(matching.get(1))) {
+                if (matching.get(1).equals(neighbor) && neighbors.contains(matching.get(0))) {
                     count++;
                 }
             }

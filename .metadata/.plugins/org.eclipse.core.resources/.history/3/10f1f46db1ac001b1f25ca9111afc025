@@ -23,7 +23,7 @@ public class Main {
         ArrayList<String> match3 = new ArrayList<String>(Arrays.asList("Rene Mueller", "Ozzie Wehner", "writing"));
         ArrayList<String> match4 = new ArrayList<String>(Arrays.asList("Lesley Stracke", "Ozzie Wehner", "math")); // replaced margene emard w/ lesley stracke to test clustering coef tutor method
         ArrayList<String> match5 = new ArrayList<String>(Arrays.asList("Margene Emard", "Lesley Stracke", "science"));
-        ArrayList<String> match6 = new ArrayList<String>(Arrays.asList("Margene Emard", "Rene Mueller", "science")); // replaced ozzie wehner w/ rene mueller to test clustering coef student method
+        ArrayList<String> match6 = new ArrayList<String>(Arrays.asList("Margene Emard", "Rene Mueller", "science")); // replaced Ozzie Wehner w/ rene mueller ot test clustering coef student method
         List<List<String>> m = new ArrayList<List<String>>();
         m.add(match1);
         m.add(match2);

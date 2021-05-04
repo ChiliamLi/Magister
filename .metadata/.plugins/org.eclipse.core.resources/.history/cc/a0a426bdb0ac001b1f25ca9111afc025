@@ -46,7 +46,7 @@ public class ClosureProperties {
         System.out.println(neighbors.toString());
         for (String neighbor: neighbors) {
             for(List<String> matching: matchings) {
-                if (matching.get(0).equals(neighbor) && neighbors.contains(matching.get(1))) {
+                if (matching.get(1).equals(neighbor) && neighbors.contains(matching.get(0))) {
                     count++;
                 }
             }
