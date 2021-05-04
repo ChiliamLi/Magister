@@ -1,0 +1,36 @@
+package hw5;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // set parameters
+        int numStudents = 4;
+        int numTutors = 2;
+        int numCourses = Course.values().length;
+       
+        // create graph from data
+        StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
+        g.addEdge(0, 1, Integer.MAX_VALUE);
+        g.addEdge(0, 3, Integer.MAX_VALUE);
+        g.addEdge(1, 2, 3);
+        g.addEdge(3, 4, 2);
+        g.addEdge(2, 5, Integer.MAX_VALUE);
+        g.addEdge(2, 6, Integer.MAX_VALUE);
+        g.addEdge(2, 7, Integer.MAX_VALUE);
+        g.addEdge(4, 8, Integer.MAX_VALUE);
+        g.addEdge(4, 9, Integer.MAX_VALUE);
+        g.addEdge(5, 10, 1);
+        g.addEdge(6, 10, 1);
+        g.addEdge(7, 11, 1);
+        g.addEdge(8, 12, 1);
+        g.addEdge(9, 13, 1);
+        g.addEdge(10, 14, 1);
+        g.addEdge(11, 14, 1);
+        g.addEdge(12, 14, 1);
+        g.addEdge(13, 14, 1);
+//        StudentTutorGraph rGraph = BipartiteMatching.findFinalResidualGraph(g, numStudents, 
+//                numTutors, numCourses); 
+        System.out.println(BFS.doBFS1(g, 0, g.getSize()-1));
+    }
+
+}

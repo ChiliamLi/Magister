@@ -1,0 +1,5 @@
+package hw5;
+
+public enum Course {
+    MATH, READING, WRITING, SCIENCE, HISTORY, A, B, C, D, E, F, G, H, I, J, K
+}
