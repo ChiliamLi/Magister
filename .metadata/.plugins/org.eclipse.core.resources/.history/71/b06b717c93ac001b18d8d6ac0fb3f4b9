@@ -1,5 +1,6 @@
 package hw5;
-import java.util.*;
+
+import java.util.HashMap;
 
 public class BipartiteMatching {
  
@@ -49,8 +50,7 @@ public class BipartiteMatching {
     }
     
     // get matchings from residual graph
-    public static List<List<String>> getMatchings(StudentTutorGraph g, StudentTutorGraph rGraph) {
-        List<List<String>> matchings = new ArrayList<>();
+    public static StudentTutorGraph getMatchings(StudentTutorGraph g, StudentTutorGraph rGraph) {
         // subtract final residual graph weights from original weights
         for (int i = 0; i < g.numTutors; i++) {
             for (int j = 0; j < g.numCourses; j++) {
@@ -74,7 +74,6 @@ public class BipartiteMatching {
         }
                
         // find all matchings
-        int counter = 0;
         for (int i = 0; i < g.numTutors; i++) {
             for (int j = 0; j < g.numCourses; j++) {
                 for (int k = 0; k < g.numStudents; k++) {
@@ -85,23 +84,19 @@ public class BipartiteMatching {
                             g.getWeight(tutorIndex, courseIndex) > 0 && 
                             g.hasEdge(courseIndex, studentIndex) && 
                             g.getWeight(courseIndex, studentIndex) > 0) {
-                        List<String> temp = new ArrayList<>();
-                        temp.add(g.tutors.get(i).getName());
-                        temp.add(g.students.get(k).getName());
-                        temp.add(Course.values()[j].toString().toLowerCase());
-                        matchings.add(temp);
+                        System.out.println(g.tutors.get(i).getName() + " teaches " + 
+                                g.students.get(k).getName() + " in " + 
+                                Course.values()[j].toString().toLowerCase());
                         g.setEdge(tutorIndex, courseIndex, 
                                 g.getWeight(tutorIndex, courseIndex) - 1);
                         g.setEdge(courseIndex, studentIndex, 
                                 g.getWeight(courseIndex, studentIndex) - 1);
-                        counter++;
                     }
                 }
             }
         }
         
-        System.out.println("Found " + counter + " matchings");
-        return matchings;
+        return g;
     }
    
 }

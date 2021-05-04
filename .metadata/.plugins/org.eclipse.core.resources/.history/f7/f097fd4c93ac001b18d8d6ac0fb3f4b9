@@ -48,6 +48,11 @@ public class StudentTutorGraph {
         return 2*n + 1;
     }
     
+    // get tutor id from node index
+    private int getTutorID(int n) {
+        return (n - 1) / 2;
+    }
+    
     // get index of course node in graph
     public int getCourseIndex(int n) {
         return n + 1 + 2*numTutors;
@@ -56,6 +61,21 @@ public class StudentTutorGraph {
     // get index of student node in graph
     public int getStudentIndex(int n) {
         return getCourseIndex(n) + numCourses; 
+    }
+    
+    // get student id from node index 
+    private int getStudentID(int n) {
+        return n - numCourses - 2*numTutors - 1;
+    }
+    
+    // get student object from node index
+    public Student getStudent(int index) {
+        return students.get(getStudentID(index));
+    }
+    
+    // get tutor object from node index
+    public Tutor getTutor(int index) {
+        return tutors.get(getTutorID(index));
     }
     
     // format json

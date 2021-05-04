@@ -48,6 +48,11 @@ public class StudentTutorGraph {
         return 2*n + 1;
     }
     
+    // get tutor id from node index
+    private int getTutorID(int n) {
+        return (n - 1) / 2;
+    }
+    
     // get index of course node in graph
     public int getCourseIndex(int n) {
         return n + 1 + 2*numTutors;
@@ -56,6 +61,21 @@ public class StudentTutorGraph {
     // get index of student node in graph
     public int getStudentIndex(int n) {
         return getCourseIndex(n) + numCourses; 
+    }
+    
+    // get student id from node index 
+    private int getStudentID(int n) {
+        return n - numCourses - 2*numTutors - 1;
+    }
+    
+    // get student object from node index
+    public Student getStudent(int index) {
+        return students.get(getStudentID(index));
+    }
+    
+    // get tutor object from node index
+    public Tutor getTutor(int index) {
+        return tutors.get(getTutorID(index));
     }
     
     // format json
@@ -122,7 +142,29 @@ public class StudentTutorGraph {
                 addEdge(getTutorIndex(t.getID())+1, getCourseIndex(course.ordinal()), 
                         t.getCapacity());
             }
-        }    
+        }
+        
+//        addEdge(0, 1, Integer.MAX_VALUE);
+//        addEdge(0, 3, Integer.MAX_VALUE);
+//        addEdge(1, 2, 1);
+//        addEdge(3, 4, 8);
+//        addEdge(2, 6, 1);
+//        addEdge(4, 5, 8);
+//        addEdge(4, 6, 8);
+//        addEdge(4, 7, 8);
+//        addEdge(5, 10, 1);
+//        addEdge(5, 12, 1);
+//        addEdge(6, 10, 1);
+//        addEdge(6, 11, 1);
+//        addEdge(6, 13, 1);
+//        addEdge(7, 11, 1);
+//        addEdge(7, 12, 1);
+//        addEdge(7, 13, 1);
+//        addEdge(10, 14, Integer.MAX_VALUE);
+//        addEdge(11, 14, Integer.MAX_VALUE);
+//        addEdge(12, 14, Integer.MAX_VALUE);
+//        addEdge(13, 14, Integer.MAX_VALUE);
+//        
         System.out.println("Finished initializing graph");
     }
     

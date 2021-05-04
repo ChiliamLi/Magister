@@ -16,6 +16,7 @@ public class Main {
         
         // get list of matchings, format is ({tutor name}, {student name}, {subject})
         List<List<String>> matchings = BipartiteMatching.getMatchings(g, rGraph);
+        System.out.println(matchings.get(0));
     }
 
 }
