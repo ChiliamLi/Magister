@@ -86,7 +86,7 @@ public class BipartiteMatching {
                             g.getWeight(tutorIndex, courseIndex) > 0 && 
                             g.hasEdge(courseIndex, studentIndex) && 
                             g.getWeight(courseIndex, studentIndex) > 0) {
-//                        System.out.println("matching: " + tutorIndex + " " + courseIndex + " " + studentIndex);
+                        System.out.println("matching: " + tutorIndex + " " + courseIndex + " " + studentIndex);
                         System.out.println(g.tutors.get(i).getName() + " teaches " + 
                                 g.students.get(k).getName() + " in " + 
                                 Course.values()[j].toString().toLowerCase());

@@ -298,8 +298,7 @@ public class StudentTutorGraph {
             throw new IllegalArgumentException();
         }
         List<Integer> neighbors = new ArrayList<>(g.get(v).keySet());
-        Collections.shuffle(neighbors);
-        return neighbors;
+        return ;
     }
     
 }
