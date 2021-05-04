@@ -1,0 +1,73 @@
+package hw5;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // set parameters
+        int numStudents = 4;
+        int numTutors = 2;
+        int numCourses = Course.values().length;
+       
+        // create graph from data
+        StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
+//        g.init();
+        g.addEdge(0, 1, Integer.MAX_VALUE);
+        g.addEdge(0, 3, Integer.MAX_VALUE);
+        g.addEdge(1, 2, 3);
+        g.addEdge(3, 4, 2);
+        g.addEdge(2, 5, 3);
+        g.addEdge(2, 6, 3);
+        g.addEdge(2, 7, 3);
+        g.addEdge(4, 8, 2);
+        g.addEdge(4, 9, 2);
+        g.addEdge(5, 10, 1);
+        g.addEdge(6, 10, 1);
+        g.addEdge(7, 11, 1);
+        g.addEdge(8, 12, 1);
+        g.addEdge(9, 13, 1);
+        g.addEdge(10, 14, Integer.MAX_VALUE);
+        g.addEdge(11, 14, Integer.MAX_VALUE);
+        g.addEdge(12, 14, Integer.MAX_VALUE);
+        g.addEdge(13, 14, Integer.MAX_VALUE);
+        StudentTutorGraph rGraph = BipartiteMatching.doFF(g, numStudents, 
+                numTutors, numCourses); 
+        
+//        int[] parent = BFS.getPath(g, 0, g.getSize()-1);
+//        for (int v = g.getSize()-1; v != 0; v = parent[v]) {
+//            System.out.println(v);
+//        }
+        
+        g.setEdge(2, 5, g.getWeight(2, 5)-rGraph.getWeight(2, 5));
+        g.setEdge(2, 6, g.getWeight(2, 6)-rGraph.getWeight(2, 6));
+        g.setEdge(2, 7, g.getWeight(2, 7)-rGraph.getWeight(2, 7));
+        g.setEdge(4, 8, g.getWeight(4, 8)-rGraph.getWeight(4, 8));
+        g.setEdge(4, 9, g.getWeight(4, 9)-rGraph.getWeight(4, 9));
+        g.setEdge(5, 10, g.getWeight(5, 10)-rGraph.getWeight(5, 10));
+        g.setEdge(6, 10, g.getWeight(6, 10)-rGraph.getWeight(6, 10));
+        g.setEdge(7, 11, g.getWeight(7, 11)-rGraph.getWeight(7, 11));
+        g.setEdge(8, 12, g.getWeight(8, 12)-rGraph.getWeight(8, 12));
+        g.setEdge(9, 13, g.getWeight(9, 13)-rGraph.getWeight(9, 13));
+        
+        System.out.println(g.getWeight(2, 5));
+        System.out.println(g.getWeight(5, 10));
+        
+        for (int i = 0; i < numTutors; i++) {
+            for (int j = i; j < numCourses; j++) {
+                for (int k = 0; k < numStudents; k++) {
+                    int tutorIndex = g.getTutorIndex(i)+1;
+                    int courseIndex = g.getCourseIndex(j);
+                    int studentIndex = g.getStudentIndex(k);
+                    System.out.println(tutorIndex + " " + courseIndex + " " + studentIndex);
+                    if (g.hasEdge(tutorIndex, courseIndex) && 
+                            g.getWeight(tutorIndex, courseIndex) > 0 && 
+                            g.hasEdge(courseIndex, studentIndex) && 
+                            g.getWeight(courseIndex, studentIndex) > 0) {
+                        System.out.println("Tutor " + i + " teaches student " + k + " in " + 
+                            Course.values()[j]);
+                    }
+                }
+            }
+        }
+    }
+
+}

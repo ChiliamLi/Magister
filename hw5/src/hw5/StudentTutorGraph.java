@@ -43,40 +43,49 @@ public class StudentTutorGraph {
     JSONArray studentsJSON = new JSONArray();
     JSONArray tutorsJSON = new JSONArray();
     
-    private int getTutorIndex(int n) {
+    // get index of tutor node in graph
+    public int getTutorIndex(int n) {
         return 2*n + 1;
     }
     
+    // get tutor id from node index
     private int getTutorID(int n) {
         return (n - 1) / 2;
     }
     
-    private int getCourseIndex(int n) {
+    // get index of course node in graph
+    public int getCourseIndex(int n) {
         return n + 1 + 2*numTutors;
     }
     
-    private int getStudentIndex(int n) {
+    // get index of student node in graph
+    public int getStudentIndex(int n) {
         return getCourseIndex(n) + numCourses; 
     }
     
+    // get student id from node index 
     private int getStudentID(int n) {
         return n - numCourses - 2*numTutors - 1;
     }
     
+    // get student object from node index
     public Student getStudent(int index) {
         return students.get(getStudentID(index));
     }
     
+    // get tutor object from node index
     public Tutor getTutor(int index) {
         return tutors.get(getTutorID(index));
     }
     
+    // format json
     private String prettifyJSON(String jsonString) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JsonArray jsonArray = JsonParser.parseString(jsonString).getAsJsonArray();
         return gson.toJson(jsonArray);
     }
     
+    // write json files
     public void writeJSON() {
         try {
             Files.deleteIfExists(new File("students.json").toPath());
@@ -102,31 +111,9 @@ public class StudentTutorGraph {
         System.out.println("Finished writing tutors.json");
     }
     
-    /**
-     * Initializes a graph of size {@code n}. All valid vertices in this graph thus have integer
-     * indices in the half-open range {@code [0, n)}, n > 0.
-     * <p/>
-     * Do NOT modify this constructor header.
-     *
-     * @param n the number of vertices in the graph
-     * @throws IllegalArgumentException if {@code n} is zero or negative
-     * @implSpec This method should run in expected O(n) time
-     */
+    // initialize graph
     @SuppressWarnings("unchecked")
-    public StudentTutorGraph(int numStudents, int numTutors, int numCourses) {        
-        this.numStudents = numStudents;
-        this.numTutors = numTutors;
-        this.numCourses = numCourses;
-        int n = 2 + 2*numTutors + numCourses + numStudents;
-        
-        if (n < 1) {
-            throw new IllegalArgumentException();
-        }
-        g = new ArrayList<HashMap<Integer, Integer>>();
-        for (int i = 0; i < n; i++) {
-            g.add(new HashMap<Integer, Integer>());
-        }
-        
+    public void init() {
         students = new ArrayList<>();
         for (int i = 0; i < numStudents; i++) {
             Student s = new Student(i);
@@ -136,7 +123,6 @@ public class StudentTutorGraph {
         tutors = new ArrayList<>();
         for (int i = 0; i < numTutors; i++) {
             Tutor t = new Tutor(i);
-            tutors.add(t);
             tutors.add(t);
             tutorsJSON.add(t.createJSON());
         }
@@ -154,13 +140,57 @@ public class StudentTutorGraph {
             addEdge(getTutorIndex(t.getID()), getTutorIndex(t.getID())+1, t.getCapacity());
             for (Course course : t.getProficientCourses()) {
                 addEdge(getTutorIndex(t.getID())+1, getCourseIndex(course.ordinal()), 
-                        Integer.MAX_VALUE);
+                        t.getCapacity());
             }
         }
         
+//        addEdge(0, 1, Integer.MAX_VALUE);
+//        addEdge(0, 3, Integer.MAX_VALUE);
+//        addEdge(1, 2, 1);
+//        addEdge(3, 4, 8);
+//        addEdge(2, 6, 1);
+//        addEdge(4, 5, 8);
+//        addEdge(4, 6, 8);
+//        addEdge(4, 7, 8);
+//        addEdge(5, 10, 1);
+//        addEdge(5, 12, 1);
+//        addEdge(6, 10, 1);
+//        addEdge(6, 11, 1);
+//        addEdge(6, 13, 1);
+//        addEdge(7, 11, 1);
+//        addEdge(7, 12, 1);
+//        addEdge(7, 13, 1);
+//        addEdge(10, 14, Integer.MAX_VALUE);
+//        addEdge(11, 14, Integer.MAX_VALUE);
+//        addEdge(12, 14, Integer.MAX_VALUE);
+//        addEdge(13, 14, Integer.MAX_VALUE);
+//        
         System.out.println("Finished initializing graph");
     }
-    public StudentTutorGraph() {        
+    
+    /**
+     * Initializes a graph of size {@code n}. All valid vertices in this graph thus have integer
+     * indices in the half-open range {@code [0, n)}, n > 0.
+     * <p/>
+     * Do NOT modify this constructor header.
+     *
+     * @param n the number of vertices in the graph
+     * @throws IllegalArgumentException if {@code n} is zero or negative
+     * @implSpec This method should run in expected O(n) time
+     */
+    public StudentTutorGraph(int numStudents, int numTutors, int numCourses) {        
+        this.numStudents = numStudents;
+        this.numTutors = numTutors;
+        this.numCourses = numCourses;
+        int n = 2 + 2*numTutors + numCourses + numStudents;
+        
+        if (n < 1) {
+            throw new IllegalArgumentException();
+        }
+        g = new ArrayList<HashMap<Integer, Integer>>();
+        for (int i = 0; i < n; i++) {
+            g.add(new HashMap<Integer, Integer>());
+        }
     }
 
     /**
@@ -239,6 +269,17 @@ public class StudentTutorGraph {
             g.get(u).put(v, weight);
             return true;
         }
+    }
+    
+    // replace existing edge weight with specified value
+    public void setEdge(int u, int v, int weight) {
+        if (u < 0 || v < 0 || u >= g.size() || v >= g.size() || u == v) {
+            throw new IllegalArgumentException();
+        }
+        if (!hasEdge(u, v)) {
+            throw new NoSuchElementException();
+        }
+        g.get(u).put(v, weight);
     }
 
     /**
