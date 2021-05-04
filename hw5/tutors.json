@@ -3,34 +3,36 @@
     "proficientCourses": [
       "READING",
       "MATH",
-      "HISTORY",
-      "SCIENCE"
+      "SCIENCE",
+      "HISTORY"
     ],
-    "name": "Manual Fahey",
-    "rating": 7.88,
+    "name": "Shelton Cassin",
+    "rating": 7.04,
     "id": 0,
     "proficiency": {
-      "WRITING": 3,
       "READING": 9,
-      "MATH": 7,
-      "HISTORY": 5,
-      "SCIENCE": 10
+      "MATH": 9,
+      "SCIENCE": 5,
+      "WRITING": 1,
+      "HISTORY": 6
     },
-    "capacity": 6
+    "capacity": 4
   },
   {
     "proficientCourses": [
-      "MATH"
+      "READING",
+      "WRITING",
+      "HISTORY"
     ],
-    "name": "Chad Schuster",
-    "rating": 1.9,
+    "name": "Susan Moore",
+    "rating": 3.32,
     "id": 1,
     "proficiency": {
-      "WRITING": 3,
-      "READING": 4,
-      "MATH": 6,
-      "HISTORY": 2,
-      "SCIENCE": 2
+      "READING": 5,
+      "MATH": 1,
+      "SCIENCE": 2,
+      "WRITING": 5,
+      "HISTORY": 7
     },
     "capacity": 8
   }

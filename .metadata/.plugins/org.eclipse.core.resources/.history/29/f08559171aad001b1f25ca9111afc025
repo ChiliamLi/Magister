@@ -125,21 +125,8 @@ public class ClosureProperties {
         return false; 
     }
     //Checks to see if our tutor/student graph is a bipartite graph
-    public boolean BipartiteMatching (Map adjList) {
-        // Initialize an ArrayList of colorings (stored in the form of a hashmap w/ name - color)
-       /* Map<String, String> colorMap = new HashMap<String, String>();
-        for (List<String> matching: matchings) {
-            if (!colorMap.containsKey(matching.get(0)) && (!colorMap.containsKey(matching.get(1)) || 
-                    !colorMap.get(matching.get(1)).equals("red"))) {
-                // if hashmap does not contain tutor and neighboring node DNE or is of opposite color
-                colorMap.put(matching.get(0), "red"); // create new entry
-                if (!colorMap.containsKey(matching.get(1))) {
-                    colorMap.put(matching.get(1), "blue");
-                }
-       
-            }
-        }*/
-        return true; 
+    public boolean BipartiteMatching (List<List<String>> matchings) {
+        return true; //TODO
     }
     
     //Calculates the number of subtrees and finds a numerical representation for how connected

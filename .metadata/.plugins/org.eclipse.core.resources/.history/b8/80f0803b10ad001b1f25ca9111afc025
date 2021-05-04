@@ -9,7 +9,6 @@ public class Main {
         int numStudents = 3;
         int numTutors = 2;
         int numCourses = Course.values().length;
-        adjList alist = new adjList(numStudents + numTutors);
        
         // create graph from data
         StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
@@ -35,13 +34,7 @@ public class Main {
         System.out.println(m.toString());
         //System.out.println(cp.clusteringCoefficientTutor(m, "Rene Mueller"));
         //System.out.println(cp.clusteringCoefficientStudent(m, "Lesley Stracke"));
-        //System.out.println(cp.focalClosure(m, "science"));
-        //System.out.println(cp.membershipClosure(m, "Rene Mueller"));
-        //System.out.println(cp.triadicClosure(m, "Rene Mueller", "Justa Bauch", "writing"));
-        for (List<String> matching: m) {
-            alist.addEdge(matching.get(0), matching.get(1));
-        }
-        alist.printList();
+        System.out.println(cp.focalClosure(m, "science"));
     }
 
 }

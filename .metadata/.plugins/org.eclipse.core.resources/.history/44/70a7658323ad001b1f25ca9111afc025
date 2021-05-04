@@ -1,0 +1,13 @@
+package hw5;
+import java.util.*;
+
+public class adjList {
+    private HashMap<Integer, ArrayList<Integer>> alist;
+    private int numVer;
+    private int distance[];
+    
+    public adjList(int nodes){
+        numVer = nodes;
+        alist = new HashMap<Integer, ArrayList<Integer>>();
+    }
+}

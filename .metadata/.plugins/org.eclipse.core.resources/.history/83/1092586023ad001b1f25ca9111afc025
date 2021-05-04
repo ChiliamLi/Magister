@@ -125,9 +125,9 @@ public class ClosureProperties {
         return false; 
     }
     //Checks to see if our tutor/student graph is a bipartite graph
-    public boolean BipartiteMatching (Map adjList) {
+    public boolean BipartiteMatching (List<List<String>> matchings) {
         // Initialize an ArrayList of colorings (stored in the form of a hashmap w/ name - color)
-       /* Map<String, String> colorMap = new HashMap<String, String>();
+        Map<String, String> colorMap = new HashMap<String, String>();
         for (List<String> matching: matchings) {
             if (!colorMap.containsKey(matching.get(0)) && (!colorMap.containsKey(matching.get(1)) || 
                     !colorMap.get(matching.get(1)).equals("red"))) {
@@ -136,9 +136,9 @@ public class ClosureProperties {
                 if (!colorMap.containsKey(matching.get(1))) {
                     colorMap.put(matching.get(1), "blue");
                 }
-       
+                else if ()
             }
-        }*/
+        }
         return true; 
     }
     

@@ -2,35 +2,34 @@
   {
     "courses": [
       "MATH",
+      "READING"
+    ],
+    "grade": 6,
+    "name": "Duncan Kilback",
+    "id": 0,
+    "frequency": 2
+  },
+  {
+    "courses": [
       "WRITING",
+      "SCIENCE",
       "HISTORY"
     ],
-    "grade": 11,
-    "name": "Hobert Price",
-    "id": 0,
-    "frequency": 6
-  },
-  {
-    "courses": [
-      "MATH",
-      "READING",
-      "WRITING"
-    ],
-    "grade": 9,
-    "name": "Marion Lindgren",
+    "grade": 4,
+    "name": "Marcus Langosh",
     "id": 1,
-    "frequency": 5
+    "frequency": 3
   },
   {
     "courses": [
       "MATH",
       "READING",
-      "WRITING",
-      "SCIENCE"
+      "SCIENCE",
+      "HISTORY"
     ],
-    "grade": 11,
-    "name": "Burl Block",
+    "grade": 2,
+    "name": "Lee Kreiger",
     "id": 2,
-    "frequency": 4
+    "frequency": 5
   }
 ]
