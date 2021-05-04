@@ -89,7 +89,6 @@ public class BipartiteMatching {
                         temp.add(g.tutors.get(i).getName());
                         temp.add(g.students.get(k).getName());
                         temp.add(Course.values()[j].toString().toLowerCase());
-                        matchings.add(temp);
                         g.setEdge(tutorIndex, courseIndex, 
                                 g.getWeight(tutorIndex, courseIndex) - 1);
                         g.setEdge(courseIndex, studentIndex, 

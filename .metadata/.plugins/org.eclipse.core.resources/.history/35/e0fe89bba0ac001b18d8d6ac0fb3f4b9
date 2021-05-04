@@ -13,8 +13,6 @@ public class Main {
         StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
         g.init();
         StudentTutorGraph rGraph = BipartiteMatching.doFF(g);
-        
-        // get list of matchings, format is ({tutor name}, {student name}, {subject})
         List<List<String>> matchings = BipartiteMatching.getMatchings(g, rGraph);
     }
 
