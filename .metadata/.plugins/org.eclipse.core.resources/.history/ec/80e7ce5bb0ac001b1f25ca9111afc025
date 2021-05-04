@@ -26,10 +26,12 @@ public class ClosureProperties {
             for(List<String> matching: matchings) {
                 if (matching.get(1).equals(neighbor) && neighbors.contains(matching.get(0))) {
                     count++;
+                    System.out.println("hi: " + count);
                 }
             }
         }
-        return count/((neighbors.size() * (neighbors.size()-1))/2);
+        System.out.println("hi2: " + count);
+        return count/((neighbors.size() * neighbors.size()-1)/2);
     }
     
     //Calculates clustering coefficient for students

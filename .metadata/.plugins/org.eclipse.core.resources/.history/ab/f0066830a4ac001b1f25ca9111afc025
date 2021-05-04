@@ -11,25 +11,8 @@ public class ClosureProperties {
     }*/
     
     //Calculates clustering coefficient for tutors
-    public double clusteringCoefficientTutor (List<List<String>> matchings, String name) {
-        List<List<String>> filtered = new ArrayList<List<String>>();
-        ArrayList<String> neighbors = new ArrayList<String>();
-        for (List<String> matching: matchings) {
-            if (matching.get(0).equals(name)) {
-                filtered.add(matching);
-                neighbors.add(matching.get(1));
-            }
-        }
-        double count = 0.0;
-        System.out.println(neighbors.toString());
-        for (String neighbor: neighbors) {
-            for(List<String> matching: matchings) {
-                if (matching.get(1).equals(neighbor) && neighbors.contains(matching.get(0))) {
-                    count++;
-                }
-            }
-        }
-        return count/((neighbors.size() * (neighbors.size()-1))/2);
+    public float clusteringCoefficientTutor (List<List<String>> matchings, String name) {
+        return 0; //TODO
     }
     
     //Calculates clustering coefficient for students

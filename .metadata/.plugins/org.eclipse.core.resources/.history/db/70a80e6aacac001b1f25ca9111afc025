@@ -21,18 +21,11 @@ public class Main {
         ArrayList<String> match1 = new ArrayList<String>(Arrays.asList("Rene Mueller", "Justa Bauch", "writing"));
         ArrayList<String> match2 = new ArrayList<String>(Arrays.asList("Rene Mueller", "Lesley Stracke", "writing"));
         ArrayList<String> match3 = new ArrayList<String>(Arrays.asList("Rene Mueller", "Ozzie Wehner", "writing"));
-        ArrayList<String> match4 = new ArrayList<String>(Arrays.asList("Lesley Stracke", "Ozzie Wehner", "math"));
+        ArrayList<String> match4 = new ArrayList<String>(Arrays.asList("Margene Emard", "Ozzie Wehner", "math"));
         ArrayList<String> match5 = new ArrayList<String>(Arrays.asList("Margene Emard", "Lesley Stracke", "science"));
         ArrayList<String> match6 = new ArrayList<String>(Arrays.asList("Margene Emard", "Ozzie Wehner", "science"));
-        List<List<String>> m = new ArrayList<List<String>>();
-        m.add(match1);
-        m.add(match2);
-        m.add(match3);
-        m.add(match4);
-        m.add(match5);
-        m.add(match6);
-        System.out.println(m.toString());
-        System.out.println(cp.clusteringCoefficientTutor(m, "Rene Mueller"));
+        List<List<String>> m = new List<List<String>>();
+        cp.clusteringCoefficientTutor(m, "Ramon Fahey");
     }
 
 }

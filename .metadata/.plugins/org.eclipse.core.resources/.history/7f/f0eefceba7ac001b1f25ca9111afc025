@@ -1,0 +1,27 @@
+package hw5;
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // set parameters
+        ClosureProperties cp = new ClosureProperties();
+        int numStudents = 6;
+        int numTutors = 3;
+        int numCourses = Course.values().length;
+       
+        // create graph from data
+        StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
+        g.init();
+        StudentTutorGraph rGraph = BipartiteMatching.doFF(g);
+        
+        // get list of matchings, format is ({tutor name}, {student name}, {subject})
+        List<List<String>> matchings = BipartiteMatching.getMatchings(g, rGraph);
+        //System.out.println(matchings.toString());
+        final String matches = [["Tonja Johnson", "Claris Dickinson", "math"], [Tonja Johnson, 
+        Fritz Mueller, math], [Tonja Johnson, Colby Fay, math], [Tonja Johnson, Colby Fay, reading], [Tonja Johnson, Claris Dickinson, science], [Joline Kozey, Camille Hodkiewicz, science], [Joline Kozey, Hassie Osinski, science], [Joline Kozey, Fritz Mueller, science], [Joline Kozey, Camille Hodkiewicz, history], [Kory Grant, Claris Dickinson, writing], [Kory Grant, Byron Reichert, writing], [Kory Grant, Hassie Osinski, writing], [Kory Grant, Colby Fay, science]];
+        System.out.println(matches);
+        //cp.clusteringCoefficientTutor(matchings, "Ramon Fahey");
+    }
+
+}
