@@ -5,6 +5,7 @@ public class ClosureProperties {
     
 //All graph properties can be found in graph.java
 
+    
     //Calculates clustering coefficient for tutors
     public double clusteringCoefficientTutor (List<List<String>> matchings, String name) {
         List<List<String>> filtered = new ArrayList<List<String>>();
@@ -27,6 +28,7 @@ public class ClosureProperties {
         return count/((neighbors.size() * (neighbors.size()-1))/2);
     }
     
+    
     //Calculates clustering coefficient for students
     public double clusteringCoefficientStudent (List<List<String>> matchings, String name) {
         List<List<String>> filtered = new ArrayList<List<String>>();
@@ -48,6 +50,8 @@ public class ClosureProperties {
         }
         return count/((neighbors.size() * (neighbors.size()-1))/2);
     }
+    
+    
     //Returns a probable focal closure based on tutor-subject frequency
     public String focalClosure (List<List<String>> matchings, String subject) {
         // initialize a tutor hashmap with key = tutor name and value = # of occurrences
@@ -75,6 +79,8 @@ public class ClosureProperties {
         }
         return (maxKey + " and " + maxKey2 + " are likely to know each other through focal closure."); 
     }
+    
+    
     //Returns a probable membership closure based on tutor subject - student frequency
     public String membershipClosure (List<List<String>> matchings, String tName) {
      // initialize a subject hashmap with key = subject name and value = # of occurrences
@@ -108,6 +114,8 @@ public class ClosureProperties {
         return (maxKeyStudent + " is likely to have received tutoring in " + maxKeySubject + 
                 " from " + tName + " based on membership closure.");
     }
+    
+    
     //Checks if student-tutor connection exists
     public boolean triadicClosure (List<List<String>> matchings, String tutorName, String
             studentName, String subject) {
@@ -124,6 +132,8 @@ public class ClosureProperties {
         }
         return false; 
     }
+    
+    
     //Checks to see if our tutor/student graph is a bipartite graph
     public boolean BipartiteMatching (Map adjList) {
         // Initialize an ArrayList of colorings (stored in the form of a hashmap w/ name - color)

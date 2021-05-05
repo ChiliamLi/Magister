@@ -1,6 +1,6 @@
 eclipse.preferences.version=1
-org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Users/jeffr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/lib/jrt-fs.jar
-org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Users/jeffr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib/src.zip
 org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
 org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Users/jeffr/.p2/pool/plugins/org.junit_4.13.0.v20200204-1500.jar
 org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/jeffr/.m2/repository

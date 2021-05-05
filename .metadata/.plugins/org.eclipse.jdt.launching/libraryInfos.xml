@@ -23,6 +23,7 @@
             <entry path="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home" version="14.0.2"/>
     <libraryInfo home="/Users/williamli/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre" version="15.0.2"/>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_281" version="1.8.0_281">
         <bootpath>
