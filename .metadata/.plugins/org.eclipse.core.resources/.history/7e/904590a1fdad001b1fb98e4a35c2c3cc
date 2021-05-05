@@ -21,8 +21,8 @@ public class Main {
         /*
          * GENERATES RANDOMIZED BIPARTITE GRAPH (CONCEPT 1)
          */
-        //List<List<String>> matchings = BipartiteMatching.getMatchings(g, rGraph);
-        //System.out.println(matchings.toString());
+        List<List<String>> matchings = BipartiteMatching.getMatchings(g, rGraph);
+        System.out.println(matchings.toString());
         
         /*
          * HARDCODED GRAPH TO TEST SOCIAL NETWORK PROPERTIES (CONCEPT 2)

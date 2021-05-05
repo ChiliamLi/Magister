@@ -1,39 +1,36 @@
 [
   {
     "proficientCourses": [
-      "READING",
-      "MATH",
-      "SCIENCE",
-      "HISTORY"
+      "SCIENCE"
     ],
-    "name": "Shelton Cassin",
-    "rating": 7.04,
+    "name": "Lamar Mitchell",
+    "rating": 7.52,
     "id": 0,
     "proficiency": {
-      "READING": 9,
-      "MATH": 9,
-      "SCIENCE": 5,
-      "WRITING": 1,
-      "HISTORY": 6
+      "READING": 2,
+      "MATH": 4,
+      "SCIENCE": 7,
+      "WRITING": 3,
+      "HISTORY": 1
     },
-    "capacity": 4
+    "capacity": 2
   },
   {
     "proficientCourses": [
-      "READING",
+      "MATH",
       "WRITING",
       "HISTORY"
     ],
-    "name": "Susan Moore",
-    "rating": 3.32,
+    "name": "Romeo Purdy",
+    "rating": 0.53,
     "id": 1,
     "proficiency": {
-      "READING": 5,
-      "MATH": 1,
-      "SCIENCE": 2,
+      "READING": 0,
+      "MATH": 7,
+      "SCIENCE": 3,
       "WRITING": 5,
       "HISTORY": 7
     },
-    "capacity": 8
+    "capacity": 5
   }
 ]

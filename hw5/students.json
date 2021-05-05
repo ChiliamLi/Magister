@@ -4,32 +4,30 @@
       "MATH",
       "READING"
     ],
-    "grade": 6,
-    "name": "Duncan Kilback",
+    "grade": 11,
+    "name": "Dwain Pfannerstill",
     "id": 0,
-    "frequency": 2
+    "frequency": 1
   },
   {
     "courses": [
       "WRITING",
-      "SCIENCE",
       "HISTORY"
     ],
-    "grade": 4,
-    "name": "Marcus Langosh",
+    "grade": 5,
+    "name": "Jame Kessler",
     "id": 1,
-    "frequency": 3
+    "frequency": 2
   },
   {
     "courses": [
       "MATH",
-      "READING",
-      "SCIENCE",
-      "HISTORY"
+      "WRITING",
+      "SCIENCE"
     ],
     "grade": 2,
-    "name": "Lee Kreiger",
+    "name": "Tequila Fritsch",
     "id": 2,
-    "frequency": 5
+    "frequency": 2
   }
 ]

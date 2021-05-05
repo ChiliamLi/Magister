@@ -1,8 +1,7 @@
 ---------------HOW TO RUN----------------
 
 Run the files in the Main.java method. Uncomment EITHER the randomized graph section (tied to 
-concept 1) OR the hardcoded graph section (concept 2). Feel free to edit the variables
-numStudents and numTutors to generate difference graphs. If a red "X" appears next to the hw5 package,
+concept 1) OR the hardcoded graph section (concept 2). If a red "X" appears next to the hw5 package,
 try rebuilding the path and readding all of the external JARS (right-click "build path" ->
 "configure build path"). 
 
