@@ -1,9 +1,15 @@
-Classes 
+---------------HOW TO RUN----------------
+
+Run the files in the Main.java method. Uncomment EITHER the randomized graph section (tied to 
+concept 1) OR the hardcoded graph section (concept 2). If a red "X" appears next to the hw5 package,
+try rebuiding the path and readding all of the external JARS (right-click "build path" ->
+"configure build path"). 
 
 ---------------CLASS---------------------
 
 BFS.java: This is our main BFS class that is used in other methods like Bipartite Matching 
 and Closure Properties. 
+
 ---------------METHODS---------------------
 
 
@@ -17,6 +23,7 @@ reachable.
 
 BipartiteMatching.java: This class is involved with our Ford Fulkerson algorithms in finding the 
 maximum flow to generate the optimal matchings
+
 ---------------METHODS---------------------
 
 
@@ -33,6 +40,7 @@ are also printed to our consol.
 
 ClosureProperties.java: This class contains all our methods revolving closure properties and other
 properties that we learned in class: 
+
 ---------------METHODS---------------------
 
 
@@ -48,6 +56,7 @@ Triadic Closure: checks for triadic closure
 
 Course.java: This class just contains the enum of courses ( currently we have 5 courses that are 
 able to be taught: “MATH, READING, WRITING, SCIENCE, HISTORY”
+
 ---------------METHODS---------------------
 
 ---------------CLASS---------------------
@@ -61,6 +70,7 @@ definition, so that the student/teacher generated wouldn’t switch on us.
 ---------------CLASS---------------------
 
 Student.java: Here is where we create our Json/ data for our students
+
 ---------------METHODS---------------------
 
 
@@ -84,9 +94,9 @@ initStudents: Initializes our student Json instance
 
 ---------------CLASS---------------------
 
-StudentTutorGraph.java: This class actually creates the StudentTutor graph that is imputed into our 
-graph manipulation functions in BiparitteMatching.java and ClosureProperties.java.
-Our graph is also based off of the CIS 320 graph implementation/construction for biparitite graphs. 
+StudentTutorGraph.java: This class creates the StudentTutor graph that is inputed into our 
+graph manipulation functions in BipartiteMatching.java and ClosureProperties.java.
+
 ---------------METHODS---------------------
 
 
@@ -120,6 +130,7 @@ outNeighbor: outputs the list of neighbors a node has
 ---------------CLASS---------------------
 
 Tutor.java: Here is where we create our Json/ data for our tutors
+
 ---------------METHODS---------------------
 
 
