@@ -27,29 +27,29 @@ public class StudentTutorGraph {
     JSONArray studentsJSON = new JSONArray();
     JSONArray tutorsJSON = new JSONArray();
     
-    // Get index of tutor node in graph
+    // get index of tutor node in graph
     public int getTutorIndex(int n) {
         return 2*n + 1;
     }
     
-    // Get index of course node in graph
+    // get index of course node in graph
     public int getCourseIndex(int n) {
         return n + 1 + 2*numTutors;
     }
     
-    // Get index of student node in graph
+    // get index of student node in graph
     public int getStudentIndex(int n) {
         return getCourseIndex(n) + numCourses; 
     }
     
-    // Format json
+    // format json
     private String prettifyJSON(String jsonString) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JsonArray jsonArray = JsonParser.parseString(jsonString).getAsJsonArray();
         return gson.toJson(jsonArray);
     }
     
-    // Write json files
+    // write json files
     public void writeJSON() {
         try {
             Files.deleteIfExists(new File("students.json").toPath());
@@ -75,8 +75,7 @@ public class StudentTutorGraph {
         System.out.println("Finished writing tutors.json");
     }
     
-    // Initialize graph
-    
+    // initialize graph
     @SuppressWarnings("unchecked")
     public void init() {
         students = new ArrayList<>();
@@ -111,7 +110,7 @@ public class StudentTutorGraph {
         System.out.println("Finished initializing graph");
     }
     
-    // Initializes student tutor graph
+    // initializes student tutor graph
     
     public StudentTutorGraph(int numStudents, int numTutors, int numCourses) {        
         this.numStudents = numStudents;
@@ -169,7 +168,7 @@ public class StudentTutorGraph {
         }
     }
     
-    // Replace existing edge weight with specified value
+    // replace existing edge weight with specified value
     public void setEdge(int u, int v, int weight) {
         if (u < 0 || v < 0 || u >= g.size() || v >= g.size() || u == v) {
             throw new IllegalArgumentException();
