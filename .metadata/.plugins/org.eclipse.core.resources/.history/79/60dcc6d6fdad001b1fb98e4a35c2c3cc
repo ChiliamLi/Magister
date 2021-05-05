@@ -9,7 +9,8 @@ public class Main {
         int numStudents = 3;
         int numTutors = 2;
         int numCourses = Course.values().length;
-
+        adjList alist = new adjList(numStudents + numTutors);
+       
         // create graph from data
         StudentTutorGraph g = new StudentTutorGraph(numStudents, numTutors, numCourses);
         g.init();
