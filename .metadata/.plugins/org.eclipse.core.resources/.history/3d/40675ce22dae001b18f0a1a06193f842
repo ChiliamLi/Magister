@@ -133,5 +133,10 @@ public class ClosureProperties {
         return false; 
     }
     
+    //Calculates the number of subtrees and finds a numerical representation for how connected
+    //our graph is (basically how interconnected our tutor/student group is)
+    public boolean DFSConnectedness (List<List<String>> matchings) {
+        return true; //TODO
+    }
     
 }
