@@ -2,106 +2,98 @@
 
 Run the files in the Main.java method. Uncomment EITHER the randomized graph section (tied to 
 concept 1) OR the hardcoded graph section (concept 2). Feel free to edit the variables
-numStudents and numTutors to generate difference graphs. If a red "X" appears next to the hw5 package,
+numStudents and numTutors to generate different graphs. If a red "X" appears next to the hw5 package,
 try rebuilding the path and readding all of the external JARS (right-click "build path" ->
 "configure build path"). 
 
 ---------------CLASS---------------------
 
-BFS.java: This is our main BFS class that is used in other methods like Bipartite Matching 
-and Closure Properties. 
+BFS.java: Runs breadth-first search, used in Bipartite Matching and Closure Properties classes 
 
 ---------------METHODS---------------------
 
 
-public static boolean isReachable(StudentTutorGraph g, int s, int t)  is our method that returns a 
-boolean value on weather two nodes of our graph are reachable from one another
+public static boolean isReachable(StudentTutorGraph g, int s, int t): Returns a 
+boolean value on whether two nodes of our graph are reachable from one another
 
-getPath is our method that returns the path from these two nodes of the graph using BFS, if it’s 
-reachable. 
+getPath: Returns the path from these two nodes of the graph using BFS if possible
 
 ---------------CLASS---------------------
 
-BipartiteMatching.java: This class is involved with our Ford Fulkerson algorithms in finding the 
-maximum flow to generate the optimal matchings
+BipartiteMatching.java: Uses the Ford Fulkerson algorithm to find max flow in generating 
+optimal matchings
 
 ---------------METHODS---------------------
 
+doFF: Runs FF (Ford-Fulkerson) to generate maximum matchings and returns our final residual graph 
+used in getMatchings to generate all matches
 
-
-doFF: This algorithm runs FF (Ford-Fulkerson) to generate maximum matchings. This method gets 
-back our ending residual graph which is used in the getMatchings to generate all the matches
-
-getMatchings: This algorithm gets the pairings from the FF algorithm. It also uses the BFS class 
+getMatchings: Gets the pairings from the FF algorithm and uses the BFS class 
 in order to run the FF algorithm. The basic premise of the algorithm is to augment our ending 
-residual graph with our original graph to get the matchings that we obtained. These matchings 
-are also printed to our consol. 
+residual graph with our original graph to get the matchings that we obtained. The matchings 
+are also printed to our console. 
 
 ---------------CLASS---------------------
 
-ClosureProperties.java: This class contains all our methods revolving closure properties and other
-properties that we learned in class: 
+ClosureProperties.java: Contains closure properties methods + other social network
+properties we learned in class
 
 ---------------METHODS---------------------
 
 
-ClusteringCoefficient: Given an input node will calculate the clustering coefficient 
+ClusteringCoefficient: Calculates the clustering coefficient given input node
 
-Focal Closure: Checks for focal closure
+Focal Closure: Returns most probably focal closure
 
-Membership Closure: checks for membership closure
+Membership Closure: Returns most probable membership closure
 
-Triadic Closure: checks for triadic closure
+Triadic Closure: Checks for triadic closure (3-way clique)
 
 ---------------CLASS---------------------
 
-Course.java: This class just contains the enum of courses ( currently we have 5 courses that are 
-able to be taught: “MATH, READING, WRITING, SCIENCE, HISTORY”
+Course.java: Contains the enum of courses: MATH, READING, WRITING, SCIENCE, HISTORY
 
 ---------------METHODS---------------------
 
 ---------------CLASS---------------------
 
-Main.java: This is the main class in which we run all our methods defined earlier. 
-We run our graph functions, tutor/student generation, graph manipulation, and it’s where we 
-cement our data matches from our algorithm. (We did this based on the nature of our class 
-definition, so that the student/teacher generated wouldn’t switch on us. 
+Main.java: Runs all methods defined earlier: graph functions, tutor/student generation, graph 
+manipulation, data matching, etc.
+
 ---------------METHODS---------------------
 
 ---------------CLASS---------------------
 
-Student.java: Here is where we create our Json/ data for our students
+Student.java: Creates JSON/data for the students
 
 ---------------METHODS---------------------
-
-
 
 There are two public student constructors that create an instance of the student class
 
 getID: This gets the ID of the student
 
-getName: gets the name of the student
+getName: Gets the name of the student
 
-getGrade: gets the grade of the student
+getGrade: Gets the grade of the student
 
-getCourses: gets the courses the current student is taking
+getCourses: Gets the courses the current student is taking
 
-getFrequency: this gets the frequency of tutoring hours that the student wants in their requested 
+getFrequency: Gets the frequency of tutoring hours that the student wants in their requested 
 classes
 
-createCourses: creates our courses randomized based off of our Course.java
+createCourses: Creates our courses randomized based off of our Course.java
 
 initStudents: Initializes our student Json instance
 
 ---------------CLASS---------------------
 
-StudentTutorGraph.java: This class creates the StudentTutor graph that is inputed into our 
+StudentTutorGraph.java: Creates the StudentTutor graph that is inputed into our 
 graph manipulation functions in BipartiteMatching.java and ClosureProperties.java.
 
 ---------------METHODS---------------------
 
 
-hasEdge: returns true or false depending on if the two input vertices have edges
+hasEdge: Returns true or false depending on if the two input vertices have edges
 
 getStudentIndex: Get the index of the student defined in the graph
 
@@ -109,7 +101,7 @@ getCourseIndex: Get the index of the course defined in the graph
 
 getTutorIndex: Get the index of the tutor defined in the graph
 
-prettifyJSON: formats the json files
+prettifyJSON: Formats the JSON files
 
 writeJSON: Initiates the JSON files for the tutors and students
 
@@ -125,32 +117,32 @@ setEdge: Sets the edge weight if the edge exists already
 
 addEdge: Adds an edge if it already doesn’t exist
 
-outNeighbor: outputs the list of neighbors a node has 
+outNeighbor: Outputs a node's list of neighbors
 
 
 ---------------CLASS---------------------
 
-Tutor.java: Here is where we create our Json/ data for our tutors
+Tutor.java: Creates JSON data for tutors
 
 ---------------METHODS---------------------
 
 
 There are two public tutor constructors that create an instance of the tutor class
 
-getID: This gets the ID of the tutor
+getID: Gets the ID of the tutor
 
-getName: gets the name of the tutor
+getName: Gets the name of the tutor
 
-getGrade: gets the grade of the tutor
+getGrade: Gets the grade of the tutor
 
-getCourses: gets the courses the current tutor is able to teach
+getCourses: Gets the courses the current tutor is able to teach
 
 getRating: Gets the rating of the tutor
 
-getCapacity: this gets the capacity (number of students) the tutor is willing to take on
+getCapacity: Gets the capacity (number of students) the tutor is willing to take on
 
-createProficiency: creates a random proficiency level for each course
+createProficiency: Greates a random proficiency level for each course
 
-createProficientCourses: adds the courses the tutor is proficient in a list
+createProficientCourses: Adds the courses the tutor is proficient in a list
 
-initStudents: Initializes our student Json instance
+initStudents: Initializes our student JSON instance

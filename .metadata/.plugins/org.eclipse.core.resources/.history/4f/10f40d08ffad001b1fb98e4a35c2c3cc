@@ -8,13 +8,14 @@ try rebuilding the path and readding all of the external JARS (right-click "buil
 
 ---------------CLASS---------------------
 
-BFS.java: Runs breadth-first search, used in Bipartite Matching and Closure Properties classes 
+BFS.java: This is our main BFS class that is used in other methods like Bipartite Matching 
+and Closure Properties. 
 
 ---------------METHODS---------------------
 
 
 public static boolean isReachable(StudentTutorGraph g, int s, int t): Returns a 
-boolean value on whether two nodes of our graph are reachable from one another
+boolean value on whether two nodes of our graph are reachable from one another.
 
 getPath: Returns the path from these two nodes of the graph using BFS if possible
 
